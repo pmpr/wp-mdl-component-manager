@@ -1,0 +1,1 @@
+# wp-pkg-component-manager

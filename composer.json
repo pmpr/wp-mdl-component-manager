@@ -1,0 +1,24 @@
+{
+  "name": "pmpr/wp-pkg-component-manager",
+  "type": "project",
+  "license": "proprietary",
+  "description": "Component Manger Package for Wordpress",
+  "keywords": [
+    "optimization",
+    "wordpress",
+    "package"
+  ],
+  "require": {
+    "php": ">=7.4",
+    "pmpr/wp-cmn-foundation": "dev-main"
+  },
+  "autoload": {
+    "psr-4": {
+      "Pmpr\\Package\\ComponentManager\\": "src/Pmpr/Package/ComponentManager"
+    },
+    "files": [
+      "index.php"
+    ]
+  },
+  "minimum-stability": "dev"
+}

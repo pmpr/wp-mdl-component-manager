@@ -1,0 +1,39 @@
+<div class="row">
+    <div class="col-12 col-lg-6">
+        {{ fields|raw }}
+        <div class="service-details">
+            {% if is_variable %}
+                <div class="table-responsive">
+                    <table class="table table-sm m-lg-0">
+                        <thead>
+                        <tr>
+                            {% for id, title in columns %}
+                                <th id="column_{{ id|esc_attr }}" data-name="{{ id|esc_attr }}">{{ title|raw }}</th>
+                            {% endfor %}
+                        </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </div>
+            {% else %}
+                <div class="without-discount">
+                    {{ price|raw }}
+                </div>
+                {% if discounted_price is not empty %}
+                    <div class="with-discount d-none">
+                        {{ discounted_price|raw }}
+                    </div>
+                {% endif %}
+            {% endif %}
+            {{ get_spinner()|raw }}
+        </div>
+    </div>
+    <div class="col-12 col-lg-6 pb-4 pb-lg-0">
+        {% set sidebar_content = apply_filters('product_multi_step_add_to_cart_content', '', product) %}
+        {% if sidebar_content is not empty %}
+            <div class="bg-gray-100 rounded p-5 mb-3">
+                {{ sidebar_content|raw }}
+            </div>
+        {% endif %}
+    </div>
+</div>

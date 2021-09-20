@@ -1,0 +1,21 @@
+{% set sidebar_content = apply_filters('product_multi_step_order_type_content', '', product) %}
+{% set has_sidebar_content = sidebar_content is not empty %}
+
+{% if has_sidebar_content %}
+
+    <div class="row">
+        <div class="col-12 col-lg-6 pb-4 pb-md-0">
+            {{ fields|raw }}
+        </div>
+        <div class="col-12 col-lg-6 pb-4 pb-lg-0">
+            {% if has_sidebar_content is not empty %}
+                <div class="bg-gray-100 rounded p-5 mb-3">
+                    {{ sidebar_content|raw }}
+                </div>
+            {% endif %}
+        </div>
+    </div>
+{% else %}
+
+    {{ fields|raw }}
+{% endif %}
