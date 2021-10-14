@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PMPR Component Manager\n"
-"POT-Creation-Date: 2021-09-16 00:07+0430\n"
-"PO-Revision-Date: 2021-09-16 00:10+0430\n"
-"Last-Translator: Farshadi <Farshad_asgharzade@hotmail.com>\n"
+"POT-Creation-Date: 2021-10-11 20:18+0330\n"
+"PO-Revision-Date: 2021-10-11 23:03+0330\n"
+"Last-Translator:  Farshad Asgharzade <Farshad_asgharzade@hotmail.com>\n"
 "Language-Team: \n"
 "Language: fa_IR\n"
 "MIME-Version: 1.0\n"
@@ -22,42 +22,74 @@ msgstr ""
 "X-Poedit-SearchPathExcluded-0: lib\n"
 "X-Poedit-SearchPathExcluded-1: *.js\n"
 
-#: src/Pmpr/Package/ComponentManager/Ajax.php:114
-msgid "Your selected items successfully added to cart."
+#: src/Pmpr/Package/ComponentManager/Ajax.php:131
+msgid "Something is wrong, please try again after few minutes."
 msgstr ""
 
-#: src/Pmpr/Package/ComponentManager/Ajax.php:118
-#: src/Pmpr/Package/ComponentManager/Product.php:504
+#: src/Pmpr/Package/ComponentManager/Ajax.php:136
+#: src/Pmpr/Package/ComponentManager/Product.php:806
 msgid "Your domain is not a valid domain."
 msgstr "دامنه‌ای که وارد کرده‌اید معتبر نیست."
 
-#: src/Pmpr/Package/ComponentManager/Ajax.php:124
+#: src/Pmpr/Package/ComponentManager/Ajax.php:140
+msgid "Can not find related multi step product instance with this product."
+msgstr ""
+
+#: src/Pmpr/Package/ComponentManager/Ajax.php:144
+msgid "Can not find related component with this product."
+msgstr ""
+
+#: src/Pmpr/Package/ComponentManager/Ajax.php:149
 msgid "Domain is not specified."
 msgstr "دامنه مشخص نشده است."
 
-#: src/Pmpr/Package/ComponentManager/Ajax.php:129
+#: src/Pmpr/Package/ComponentManager/Ajax.php:154
 #, fuzzy
 #| msgid "Domain is not specified."
 msgid "Request domain type not specified."
 msgstr "دامنه مشخص نشده است."
 
-#: src/Pmpr/Package/ComponentManager/Ajax.php:134
+#: src/Pmpr/Package/ComponentManager/Ajax.php:159
 #, fuzzy
 #| msgid "Require parameters not passed."
 msgid "require fields not passed."
 msgstr "فیلد‌های ضروری ارائه نشده‌اند."
 
-#: src/Pmpr/Package/ComponentManager/Ajax.php:191
+#: src/Pmpr/Package/ComponentManager/Ajax.php:216
 msgid "Something wrong on request."
 msgstr "اشکالی در درخواست شما وجود دارد."
 
-#: src/Pmpr/Package/ComponentManager/Ajax.php:195
+#: src/Pmpr/Package/ComponentManager/Ajax.php:220
 msgid "Passed url parameter is not valid."
 msgstr "پیوند ارسالی به عنوان پارامتر معتبر نیست."
 
-#: src/Pmpr/Package/ComponentManager/ComponentManager.php:67
+#: src/Pmpr/Package/ComponentManager/ComponentManager.php:95
+#, php-format
+msgid "Download and Install %s"
+msgstr "دانلود و نصب %s"
+
+#: src/Pmpr/Package/ComponentManager/ComponentManager.php:96
+#, php-format
+msgid "API Key %s in plugin setting"
+msgstr "کلید %s در تنظیمات افزونه"
+
+#: src/Pmpr/Package/ComponentManager/ComponentManager.php:97
+#, php-format
+msgid "Install %s module from plugin"
+msgstr "نصب ماژول %s از طریقه افزونه"
+
+#: src/Pmpr/Package/ComponentManager/ComponentManager.php:98
+#, php-format
+msgid "License Key %s in setting of %s module"
+msgstr "کد لایسنس %s در تنظیمات ماژول %s"
+
+#: src/Pmpr/Package/ComponentManager/ComponentManager.php:147
 msgid "Component Manager"
-msgstr "مدیرت‌ کامپوننت‌ها"
+msgstr "مدیریت کامپوننت‌ها"
+
+#: src/Pmpr/Package/ComponentManager/ComponentManager.php:186
+msgid "PMPR Plugin"
+msgstr "افزونه مهندس محمدپور"
 
 #: src/Pmpr/Package/ComponentManager/Model/Component.php:35
 msgid "Component"
@@ -123,315 +155,402 @@ msgstr "بک لینک‌ها"
 msgid "Domains"
 msgstr "دامنه‌ها"
 
-#: src/Pmpr/Package/ComponentManager/Model/Purchase.php:27
+#: src/Pmpr/Package/ComponentManager/Model/Purchase.php:33
 msgid "Purchase"
 msgstr "خرید"
 
-#: src/Pmpr/Package/ComponentManager/Model/Purchase.php:28
+#: src/Pmpr/Package/ComponentManager/Model/Purchase.php:34
 msgid "Purchases"
 msgstr "خرید‌ها"
 
-#: src/Pmpr/Package/ComponentManager/Model/Purchase.php:46
+#: src/Pmpr/Package/ComponentManager/Model/Purchase.php:52
+#: src/Pmpr/Package/ComponentManager/Panel/Panel.php:52
 msgid "License Key"
 msgstr "کلید لایسنس"
 
-#: src/Pmpr/Package/ComponentManager/Model/Purchase.php:49
+#: src/Pmpr/Package/ComponentManager/Model/Purchase.php:55
 msgid "Order"
 msgstr "سفارش"
 
-#: src/Pmpr/Package/ComponentManager/Model/Purchase.php:53
-#: src/Pmpr/Package/ComponentManager/Model/Purchase.php:57
-#: src/Pmpr/Package/ComponentManager/Product.php:617
+#: src/Pmpr/Package/ComponentManager/Model/Purchase.php:59
+#: src/Pmpr/Package/ComponentManager/Model/Purchase.php:63
+#: src/Pmpr/Package/ComponentManager/Product.php:919
 msgid "Domain"
 msgstr "دامنه"
 
-#: src/Pmpr/Package/ComponentManager/Model/Purchase.php:83
+#: src/Pmpr/Package/ComponentManager/Model/Purchase.php:118
 msgid "Purchase already exists."
 msgstr "خرید پیش از این درج شده است."
 
-#: src/Pmpr/Package/ComponentManager/Product.php:164
-#: src/Pmpr/Package/ComponentManager/Setting.php:79
-#: src/Pmpr/Package/ComponentManager/Setting.php:104
+#: src/Pmpr/Package/ComponentManager/Panel/Panel.php:37
+msgid "My Modules"
+msgstr "ماژول‌های من"
+
+#: src/Pmpr/Package/ComponentManager/Panel/Panel.php:38
+msgid "Your domain's modules"
+msgstr "ماژول‌های خریداری شده برای دامنه‌های شما"
+
+#: src/Pmpr/Package/ComponentManager/Panel/Panel.php:50
+msgid "Domain Name"
+msgstr "نام دامنه"
+
+#: src/Pmpr/Package/ComponentManager/Panel/Panel.php:51
+msgid "Module Name"
+msgstr "نام ماژول‌"
+
+#: src/Pmpr/Package/ComponentManager/Panel/Panel.php:53
+msgid "Purchase Date"
+msgstr "تاریخ خرید"
+
+#: src/Pmpr/Package/ComponentManager/Product.php:183
+msgid "Your domain name"
+msgstr "نام دامنه شما"
+
+#: src/Pmpr/Package/ComponentManager/Product.php:213
+msgid "Purchase added successfully."
+msgstr "خرید با موفقیت اضافه شد."
+
+#: src/Pmpr/Package/ComponentManager/Product.php:219
+msgid "Order already added."
+msgstr ""
+
+#: src/Pmpr/Package/ComponentManager/Product.php:226
+msgid "Product or Domain is not valid."
+msgstr "محصول یا دامنه مورد نظر معتبر نیست."
+
+#: src/Pmpr/Package/ComponentManager/Product.php:301
+#, php-format
+msgid "All attributes must be global, %s is not a global attribute."
+msgstr ""
+
+#: src/Pmpr/Package/ComponentManager/Product.php:309
+#, fuzzy, php-format
+#| msgid "Your selected request domain is not valid."
+msgid "Selected value for %s is not valid: %s."
+msgstr "نوع دامنه‌ای که انتخاب کرده‌اید معتبر نیست."
+
+#: src/Pmpr/Package/ComponentManager/Product.php:313
+msgid "Attribute or Taxonomy noy found."
+msgstr ""
+
+#: src/Pmpr/Package/ComponentManager/Product.php:455
+#: src/Pmpr/Package/ComponentManager/Setting.php:85
+#: src/Pmpr/Package/ComponentManager/Setting.php:110
 #, php-format
 msgid "%s Step"
 msgstr "مرحله %s"
 
-#: src/Pmpr/Package/ComponentManager/Product.php:167
-#: src/Pmpr/Package/ComponentManager/Product.php:598
-#: src/Pmpr/Package/ComponentManager/Setting.php:79
+#: src/Pmpr/Package/ComponentManager/Product.php:458
+#: src/Pmpr/Package/ComponentManager/Product.php:900
+#: src/Pmpr/Package/ComponentManager/Setting.php:85
 msgid "Order Type"
 msgstr "نوع سفارش"
 
-#: src/Pmpr/Package/ComponentManager/Product.php:168
-#: src/Pmpr/Package/ComponentManager/Product.php:613
+#: src/Pmpr/Package/ComponentManager/Product.php:459
+#: src/Pmpr/Package/ComponentManager/Product.php:915
 msgid "Choice Domain"
 msgstr "انتخاب دامنه"
 
-#: src/Pmpr/Package/ComponentManager/Product.php:169
-#: src/Pmpr/Package/ComponentManager/Product.php:626
+#: src/Pmpr/Package/ComponentManager/Product.php:460
+#: src/Pmpr/Package/ComponentManager/Product.php:928
 msgid "Service Details"
 msgstr "جزئیات سرویس"
 
-#: src/Pmpr/Package/ComponentManager/Product.php:170
-#: src/Pmpr/Package/ComponentManager/Product.php:636
+#: src/Pmpr/Package/ComponentManager/Product.php:461
+#: src/Pmpr/Package/ComponentManager/Product.php:938
 msgid "Complete Order"
 msgstr "تکمیل سفارش"
 
-#: src/Pmpr/Package/ComponentManager/Product.php:221
+#: src/Pmpr/Package/ComponentManager/Product.php:512
 msgid "Reseller, Domain, Details (on variable product), Add to cart"
 msgstr ""
 "انتخاب نوع خرید، انتخاب دامنه، جزئیات سرویس (در محصول متغییر)، تکمیل سفارش"
 
-#: src/Pmpr/Package/ComponentManager/Product.php:239
+#: src/Pmpr/Package/ComponentManager/Product.php:530
 msgid "Domain Owner (I register this request for myself)"
 msgstr "مالک دامنه (درخواست را برای خودم ثبت می‌کنم)"
 
-#: src/Pmpr/Package/ComponentManager/Product.php:247
+#: src/Pmpr/Package/ComponentManager/Product.php:538
 msgid "New Domain (without http & www)"
 msgstr "دامنه‌ جدید (بدون http و www)"
 
-#: src/Pmpr/Package/ComponentManager/Product.php:248
+#: src/Pmpr/Package/ComponentManager/Product.php:539
 msgid "Previous Registered Domains"
 msgstr "دامنه‌های قبلی ثبت شده"
 
-#: src/Pmpr/Package/ComponentManager/Product.php:253
+#: src/Pmpr/Package/ComponentManager/Product.php:544
 msgid "New Domain"
 msgstr "دامنه جدید"
 
-#: src/Pmpr/Package/ComponentManager/Product.php:266
+#: src/Pmpr/Package/ComponentManager/Product.php:557
 msgid "Registered Domains"
 msgstr "دامنه‌های قبلی ثبت شده"
 
-#: src/Pmpr/Package/ComponentManager/Product.php:289
+#: src/Pmpr/Package/ComponentManager/Product.php:580
 msgid "You don't have any registered domain yet."
 msgstr "شما هیچ‌ دامنه ثبت شده‌ای، ندارید."
 
-#: src/Pmpr/Package/ComponentManager/Product.php:293
+#: src/Pmpr/Package/ComponentManager/Product.php:584
 msgid "You need login first."
 msgstr "ابتدا باید وارد حساب کاربری خود شوید."
 
-#: src/Pmpr/Package/ComponentManager/Product.php:299
-#: src/Pmpr/Package/ComponentManager/Product.php:705
+#: src/Pmpr/Package/ComponentManager/Product.php:590
+#: src/Pmpr/Package/ComponentManager/Product.php:1019
 msgid "Domain Preview"
 msgstr "پیش نمایش دامنه"
 
-#: src/Pmpr/Package/ComponentManager/Product.php:307
+#: src/Pmpr/Package/ComponentManager/Product.php:598
 msgid "Request Details"
 msgstr "جزئیات درخواست"
 
-#: src/Pmpr/Package/ComponentManager/Product.php:400
+#: src/Pmpr/Package/ComponentManager/Product.php:691
 msgid "I do not want to receive a discount"
 msgstr "مایل به دریافت تخفیف نیستم"
 
-#: src/Pmpr/Package/ComponentManager/Product.php:401
+#: src/Pmpr/Package/ComponentManager/Product.php:692
 msgid "II would like to receive a discount by insert backlink"
 msgstr "مایل به دریافت تخفیف در ازای درج لینک هستم"
 
-#: src/Pmpr/Package/ComponentManager/Product.php:424
+#: src/Pmpr/Package/ComponentManager/Product.php:715
 #, php-format
 msgid "Price (%s)"
 msgstr "قیمت (%s)"
 
-#: src/Pmpr/Package/ComponentManager/Product.php:448
+#: src/Pmpr/Package/ComponentManager/Product.php:750
 msgid "Use for Collection"
 msgstr "استفاده برای Collection"
 
-#: src/Pmpr/Package/ComponentManager/Product.php:463
+#: src/Pmpr/Package/ComponentManager/Product.php:765
 msgid "Enable this option if user can use backlink coupon for this variation."
 msgstr ""
 
-#: src/Pmpr/Package/ComponentManager/Product.php:466
+#: src/Pmpr/Package/ComponentManager/Product.php:768
 msgid "Use Backlink Coupon:"
 msgstr "استفاده از کوپن تخفیف بک لینک:"
 
-#: src/Pmpr/Package/ComponentManager/Product.php:512
+#: src/Pmpr/Package/ComponentManager/Product.php:814
 msgid "Requested domain not exist."
 msgstr "دامنه درخواستی وجود ندارد."
 
-#: src/Pmpr/Package/ComponentManager/Product.php:601
+#: src/Pmpr/Package/ComponentManager/Product.php:903
 msgid "Determine your purpose for your order"
 msgstr "هدف از ثبت سفارش‌تان را مشخص کنید"
 
-#: src/Pmpr/Package/ComponentManager/Product.php:604
+#: src/Pmpr/Package/ComponentManager/Product.php:906
 #, php-format
 msgid "Submit %s and goto next step"
 msgstr "تایید %s و مرحله بعد"
 
-#: src/Pmpr/Package/ComponentManager/Product.php:616
+#: src/Pmpr/Package/ComponentManager/Product.php:918
 #, php-format
 msgid "Determine domain that you want active %s on it"
 msgstr "دامنه‌ای را که می‌خوایید %s روی آن فعال شود را مشخص کنید"
 
-#: src/Pmpr/Package/ComponentManager/Product.php:629
+#: src/Pmpr/Package/ComponentManager/Product.php:931
 #, php-format
 msgid "Select details of %s for your domain"
 msgstr "جزئیات %s را برای دامنه خود انتخاب کنید"
 
-#: src/Pmpr/Package/ComponentManager/Product.php:630
+#: src/Pmpr/Package/ComponentManager/Product.php:932
 msgid "Details"
 msgstr "جزئیات"
 
-#: src/Pmpr/Package/ComponentManager/Product.php:639
+#: src/Pmpr/Package/ComponentManager/Product.php:941
 msgid "Thanks for your order, check details and add to cart"
 msgstr ""
 "از سفارش‌تان متشکریم، بعد از بررسی جزئیات دکمه افزودن به سبد خرید را بزنید"
 
-#: src/Pmpr/Package/ComponentManager/Product.php:640
-#: src/Pmpr/Package/ComponentManager/Setting.php:104
+#: src/Pmpr/Package/ComponentManager/Product.php:942
+#: src/Pmpr/Package/ComponentManager/Setting.php:110
 msgid "Add to Cart"
 msgstr "افزودن به سبد خرید"
 
-#: src/Pmpr/Package/ComponentManager/Product.php:701
+#: src/Pmpr/Package/ComponentManager/Product.php:1015
 msgid "Your selected request domain is not valid."
 msgstr "نوع دامنه‌ای که انتخاب کرده‌اید معتبر نیست."
 
-#: src/Pmpr/Package/ComponentManager/Product.php:702
+#: src/Pmpr/Package/ComponentManager/Product.php:1016
 msgid ""
 "Can not get your domain screenshot, if you sure about it, go to next step."
 msgstr ""
 "قادر به نمایش پیش‌ نمایش دامنه‌ شما نیستیم، اگر از بابت دامنه مطمئن هستیید، به "
 "مرحله بعد بروید."
 
-#: src/Pmpr/Package/ComponentManager/Product.php:703
+#: src/Pmpr/Package/ComponentManager/Product.php:1017
 msgid "Please select request domain type first."
 msgstr "لطفا ابتدا دامنه درخواستی خود را مشخص کنید."
 
-#: src/Pmpr/Package/ComponentManager/Product.php:704
+#: src/Pmpr/Package/ComponentManager/Product.php:1018
 msgid "Your entered domain is not valid."
 msgstr "دامنه‌ای که وارد کرده‌اید معتبر نیست."
 
-#: src/Pmpr/Package/ComponentManager/Product.php:705
+#: src/Pmpr/Package/ComponentManager/Product.php:1019
 #, php-format
 msgid "You must press %s button first."
 msgstr "برای ادامه ابتدا باید دکمه %s را بزنید."
 
-#: src/Pmpr/Package/ComponentManager/Product.php:706
+#: src/Pmpr/Package/ComponentManager/Product.php:1020
 msgid "Please select order type first."
 msgstr "لطفا نوع سفارش خود را مشخص کنید."
 
-#: src/Pmpr/Package/ComponentManager/Product.php:707
+#: src/Pmpr/Package/ComponentManager/Product.php:1021
 msgid "Please fill all fields or rows that you added, or delete unwanted items."
 msgstr ""
 "لطفا فیلدهای همه سطر‌ها را پر کنید و یا موارد اضافی که نمی‌خواهید را حذف کنید."
 
-#: src/Pmpr/Package/ComponentManager/Product.php:708
+#: src/Pmpr/Package/ComponentManager/Product.php:1022
 msgid "Please select a domain first."
 msgstr "لطفا یک دامنه‌ را انتخاب کنید."
 
-#: src/Pmpr/Package/ComponentManager/Product.php:711
+#: src/Pmpr/Package/ComponentManager/Product.php:1025
 msgid "Some of your selected variation not allow to use backlink coupon."
 msgstr ""
 
-#: src/Pmpr/Package/ComponentManager/Product.php:712
+#: src/Pmpr/Package/ComponentManager/Product.php:1026
 #, php-format
 msgid "The minimum spend for this coupon is %s."
 msgstr ""
 
-#: src/Pmpr/Package/ComponentManager/Product.php:716
+#: src/Pmpr/Package/ComponentManager/Product.php:1030
 msgid "Total"
 msgstr "جمع کل"
 
-#: src/Pmpr/Package/ComponentManager/Product.php:717
+#: src/Pmpr/Package/ComponentManager/Product.php:1031
 msgid "Discount"
 msgstr "تخفیف"
 
-#: src/Pmpr/Package/ComponentManager/REST/Controller.php:37
+#: src/Pmpr/Package/ComponentManager/REST/Controller.php:42
 msgid "Name of component"
 msgstr "نام کامپوننت"
 
-#: src/Pmpr/Package/ComponentManager/REST/Controller.php:49
+#: src/Pmpr/Package/ComponentManager/REST/Controller.php:53
 msgid "Type of component"
 msgstr "نوع کامپوننت"
 
-#: src/Pmpr/Package/ComponentManager/REST/Controller.php:102
+#: src/Pmpr/Package/ComponentManager/REST/Controller.php:76
+#, fuzzy
+#| msgid "Name of component"
+msgid "License key of component"
+msgstr "نام کامپوننت"
+
+#: src/Pmpr/Package/ComponentManager/REST/Controller.php:80
+#, fuzzy
+#| msgid "Name of component"
+msgid "Name key of component"
+msgstr "نام کامپوننت"
+
+#: src/Pmpr/Package/ComponentManager/REST/Controller.php:120
+msgid "License Key is valid."
+msgstr "کلید لایسنس معتبر نیست."
+
+#: src/Pmpr/Package/ComponentManager/REST/Controller.php:125
+msgid "Sorry, You not buy this component, are you trying hack?"
+msgstr ""
+
+#: src/Pmpr/Package/ComponentManager/REST/Controller.php:130
+msgid "Sorry, You not buy this component."
+msgstr ""
+
+#: src/Pmpr/Package/ComponentManager/REST/Controller.php:135
+msgid "No domain found for you."
+msgstr ""
+
+#: src/Pmpr/Package/ComponentManager/REST/Controller.php:139
+#: src/Pmpr/Package/ComponentManager/REST/Controller.php:181
+msgid "Require parameters not passed."
+msgstr "فیلد‌های ضروری ارائه نشده‌اند."
+
+#: src/Pmpr/Package/ComponentManager/REST/Controller.php:177
 #, php-format
 msgid "requested component with name %s not found."
 msgstr "کامپوننت درخواستی با نام %s یافت نشد."
 
-#: src/Pmpr/Package/ComponentManager/REST/Controller.php:106
-msgid "Require parameters not passed."
-msgstr "فیلد‌های ضروری ارائه نشده‌اند."
-
-#: src/Pmpr/Package/ComponentManager/REST/Controller.php:181
+#: src/Pmpr/Package/ComponentManager/REST/Controller.php:255
 msgid "Service is unavailable right now."
 msgstr "در حال حاضر قادر به سرویس دهی نیستم."
 
-#: src/Pmpr/Package/ComponentManager/Setting.php:45
-msgid "Component Manager Setting"
-msgstr "تنظیمات مدیرت‌ کامپوننت‌"
-
 #: src/Pmpr/Package/ComponentManager/Setting.php:46
+msgid "Component Manager Setting"
+msgstr "تنظیمات مدیریت کامپوننت‌"
+
+#: src/Pmpr/Package/ComponentManager/Setting.php:47
 msgid "Setting"
 msgstr "تنظیمات"
 
-#: src/Pmpr/Package/ComponentManager/Setting.php:56
+#: src/Pmpr/Package/ComponentManager/Setting.php:57
 msgid "Multi Step"
 msgstr "چند مرحله‌ای"
 
-#: src/Pmpr/Package/ComponentManager/Setting.php:60
+#: src/Pmpr/Package/ComponentManager/Setting.php:61
 msgid "General"
 msgstr "عمومی"
 
-#: src/Pmpr/Package/ComponentManager/Setting.php:64
+#: src/Pmpr/Package/ComponentManager/Setting.php:65
 msgid "Go to After Add to Cart"
 msgstr ""
 
-#: src/Pmpr/Package/ComponentManager/Setting.php:66
+#: src/Pmpr/Package/ComponentManager/Setting.php:67
 msgid "Product Single"
 msgstr "صفحه محصول"
 
-#: src/Pmpr/Package/ComponentManager/Setting.php:67
-msgid "Cart"
-msgstr ""
-
 #: src/Pmpr/Package/ComponentManager/Setting.php:68
+msgid "Cart"
+msgstr "سبد خرید"
+
+#: src/Pmpr/Package/ComponentManager/Setting.php:69
 msgid "Checkout"
-msgstr ""
+msgstr "تسویه حساب"
 
 #: src/Pmpr/Package/ComponentManager/Setting.php:75
+msgid "Plugin File"
+msgstr "فایل پلاگین"
+
+#: src/Pmpr/Package/ComponentManager/Setting.php:81
 msgid "Steps data"
 msgstr "داد‌های مربوط به مراحل"
 
-#: src/Pmpr/Package/ComponentManager/Setting.php:83
-#: src/Pmpr/Package/ComponentManager/Setting.php:88
+#: src/Pmpr/Package/ComponentManager/Setting.php:89
 msgid "Plugin Guide Title"
-msgstr ""
+msgstr "عنوان راهنمای پلاگین"
 
-#: src/Pmpr/Package/ComponentManager/Setting.php:93
+#: src/Pmpr/Package/ComponentManager/Setting.php:94
+#, fuzzy
+#| msgid "Plugin Guide Title"
+msgid "Plugin Guide Link"
+msgstr "عنوان راهنمای پلاگین"
+
+#: src/Pmpr/Package/ComponentManager/Setting.php:99
 msgid "Plugin Guide Button Text"
 msgstr ""
 
-#: src/Pmpr/Package/ComponentManager/Setting.php:98
+#: src/Pmpr/Package/ComponentManager/Setting.php:104
 msgid "Plugin Guide Description"
 msgstr "شرح راهنمای پلاگین"
 
-#: src/Pmpr/Package/ComponentManager/Setting.php:108
+#: src/Pmpr/Package/ComponentManager/Setting.php:114
 msgid "Backlink Title"
 msgstr "عنوان بک لینک"
 
-#: src/Pmpr/Package/ComponentManager/Setting.php:113
+#: src/Pmpr/Package/ComponentManager/Setting.php:119
 msgid "Backlink Image"
 msgstr "تصویر بک لینک"
 
-#: src/Pmpr/Package/ComponentManager/Setting.php:118
+#: src/Pmpr/Package/ComponentManager/Setting.php:124
 msgid "Backlink Alert"
 msgstr "هشدار بک لینک"
 
-#: src/Pmpr/Package/ComponentManager/Setting.php:119
+#: src/Pmpr/Package/ComponentManager/Setting.php:125
 msgid "if remove it from your page, your account is banned."
 msgstr "با دریافت این تخفیف، اگر این لینک را حذف کنید، حساب شما معلق خواهد شد."
+
+#~ msgid "Your purchased modules."
+#~ msgstr "ماژول‌های خریداری شده توسط شما"
 
 #~ msgid "Start Budget Date"
 #~ msgstr "تاریخ شروع استفاده از بودجه"
 
-#~ msgid "Download and install wordpress plugin."
-#~ msgstr "دانلود و نصب افزونه وردپرس."
-
 #~ msgid "From %s menu, install and active %s."
 #~ msgstr "از منوی %s، گزینه %s را نصب و فعال کنید."
-
-#~ msgid "Modules"
-#~ msgstr "ماژول‌ها"
 
 #~ msgid "Optimization"
 #~ msgstr "بهینه‌سازی"
@@ -448,9 +567,6 @@ msgstr "با دریافت این تخفیف، اگر این لینک را حذف
 #~ msgid "Get help from our special plugin to choose service details wisely"
 #~ msgstr ""
 #~ "برای انتخاب صحیح بودجه (تعداد صفحه) مورد نیاز، از افزونه ما کمک بگیرید"
-
-#~ msgid "PMPR Plugin"
-#~ msgstr "افزونه مهندس محمدپور"
 
 #~ msgid "A Backlink on Footer"
 #~ msgstr "یک لینک در فوتتر"
@@ -601,12 +717,6 @@ msgstr "با دریافت این تخفیف، اگر این لینک را حذف
 
 #~ msgid "Domain not valid"
 #~ msgstr "دامنه معتبر نیست"
-
-#~ msgid "Page added successfully."
-#~ msgstr "صفحه با موفقیت اضافه شد."
-
-#~ msgid "Domain is not valid."
-#~ msgstr "دامنه معتبر نیست."
 
 #~ msgid "Page removed successfully."
 #~ msgstr "صفحه با موفقیت حذف شد."
