@@ -1,0 +1,8 @@
+{% if image %}
+    <div class="my-2 border border-gray-200 rounded">
+        {{ image|raw }}
+    </div>
+{% endif %}
+{% if description %}
+    <div>{{ description|raw }}</div>
+{% endif %}

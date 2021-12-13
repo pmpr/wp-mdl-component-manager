@@ -1,5 +1,10 @@
 <h2 class="h5">{{ title|raw }}</h2>
-<div class="my-2 border border-gray-200 rounded">
-    {{ image|raw }}
-</div>
+{% if description %}
+    <div>{{ description|raw }}</div>
+{% endif %}
+{% if image %}
+    <div class="my-2 border border-gray-200 rounded">
+        {{ image|raw }}
+    </div>
+{% endif %}
 {{ alert|raw }}
