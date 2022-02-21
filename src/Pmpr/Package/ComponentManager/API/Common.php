@@ -4,4 +4,4 @@
     |             621376bb04511             |
     |_______________________________________|
 */
- use Pmpr\Package\ComponentManager\ComponentManager; ComponentManager::symcgieuakksimmu();
+ namespace Pmpr\Package\ComponentManager\API; use Pmpr\Common\Foundation\API\API; class Common extends API { }
