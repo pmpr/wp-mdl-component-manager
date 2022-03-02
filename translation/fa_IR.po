@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PMPR Component Manager\n"
-"POT-Creation-Date: 2022-02-23 23:11+0330\n"
-"PO-Revision-Date: 2022-02-23 23:13+0330\n"
+"POT-Creation-Date: 2022-02-27 23:18+0330\n"
+"PO-Revision-Date: 2022-02-27 23:18+0330\n"
 "Last-Translator:  Farshad Asgharzade <Farshad_asgharzade@hotmail.com>\n"
 "Language-Team: \n"
 "Language: fa_IR\n"
@@ -123,104 +123,108 @@ msgstr "م کامپوننت‌ها"
 msgid "PMPR Plugin"
 msgstr "افزونه مهندس محمدپور"
 
-#: src/Pmpr/Package/ComponentManager/Model/Component.php:50
+#: src/Pmpr/Package/ComponentManager/Model/Component.php:52
 #: src/Pmpr/Package/ComponentManager/Model/Purchase.php:51
 #: src/Pmpr/Package/ComponentManager/Panel/Panel.php:49
 msgid "Component"
 msgstr "کامپوننت"
 
-#: src/Pmpr/Package/ComponentManager/Model/Component.php:51
+#: src/Pmpr/Package/ComponentManager/Model/Component.php:53
 msgid "Components"
 msgstr "کامپوننت‌ها"
 
-#: src/Pmpr/Package/ComponentManager/Model/Component.php:62
+#: src/Pmpr/Package/ComponentManager/Model/Component.php:64
 msgid "Component Name"
 msgstr "نام کامپوننت"
 
-#: src/Pmpr/Package/ComponentManager/Model/Component.php:65
+#: src/Pmpr/Package/ComponentManager/Model/Component.php:67
 msgid "Persian Title"
 msgstr "عنوان فارسی"
 
-#: src/Pmpr/Package/ComponentManager/Model/Component.php:68
+#: src/Pmpr/Package/ComponentManager/Model/Component.php:70
 msgid "English Title"
 msgstr "عنوان انگلیسی"
 
-#: src/Pmpr/Package/ComponentManager/Model/Component.php:71
+#: src/Pmpr/Package/ComponentManager/Model/Component.php:73
 msgid "Start Count"
 msgstr "تعداد شروع"
 
-#: src/Pmpr/Package/ComponentManager/Model/Component.php:74
+#: src/Pmpr/Package/ComponentManager/Model/Component.php:76
 msgid "Daily Count"
 msgstr "تعداد روزانه"
 
-#: src/Pmpr/Package/ComponentManager/Model/Component.php:77
+#: src/Pmpr/Package/ComponentManager/Model/Component.php:79
 msgid "Real Count"
 msgstr "تعداد واقعی"
 
-#: src/Pmpr/Package/ComponentManager/Model/Component.php:80
+#: src/Pmpr/Package/ComponentManager/Model/Component.php:82
 #: src/Pmpr/Package/ComponentManager/Panel/Panel.php:50
 msgid "Type"
 msgstr "نوع"
 
-#: src/Pmpr/Package/ComponentManager/Model/Component.php:84
+#: src/Pmpr/Package/ComponentManager/Model/Component.php:86
 msgid "Status"
 msgstr "وضعیت"
 
-#: src/Pmpr/Package/ComponentManager/Model/Component.php:88
+#: src/Pmpr/Package/ComponentManager/Model/Component.php:90
 msgid "Product"
 msgstr "محصول"
 
-#: src/Pmpr/Package/ComponentManager/Model/Component.php:92
+#: src/Pmpr/Package/ComponentManager/Model/Component.php:94
 msgid "Domains"
 msgstr "دامنه‌ها"
 
-#: src/Pmpr/Package/ComponentManager/Model/Component.php:95
+#: src/Pmpr/Package/ComponentManager/Model/Component.php:97
 msgid "Image"
 msgstr "تصویر"
 
-#: src/Pmpr/Package/ComponentManager/Model/Component.php:98
+#: src/Pmpr/Package/ComponentManager/Model/Component.php:100
 msgid "Persian Description"
 msgstr "شرح فارسی"
 
-#: src/Pmpr/Package/ComponentManager/Model/Component.php:101
+#: src/Pmpr/Package/ComponentManager/Model/Component.php:103
 msgid "English Description"
 msgstr "شرح انگلیسی"
 
-#: src/Pmpr/Package/ComponentManager/Model/Component.php:105
+#: src/Pmpr/Package/ComponentManager/Model/Component.php:107
 msgid "Backlinks"
 msgstr "بک لینک‌ها"
 
-#: src/Pmpr/Package/ComponentManager/Model/Component.php:108
+#: src/Pmpr/Package/ComponentManager/Model/Component.php:110
 msgid "Version"
 msgstr "نسخه"
 
-#: src/Pmpr/Package/ComponentManager/Model/Component.php:111
+#: src/Pmpr/Package/ComponentManager/Model/Component.php:113
 msgid "Last Update"
 msgstr "آخرین بروز رسانی"
 
-#: src/Pmpr/Package/ComponentManager/Model/Component.php:190
+#: src/Pmpr/Package/ComponentManager/Model/Component.php:192
 msgid "Package"
 msgstr "ماژول"
 
-#: src/Pmpr/Package/ComponentManager/Model/Component.php:191
+#: src/Pmpr/Package/ComponentManager/Model/Component.php:193
 msgid "Custom"
 msgstr "سفارشی"
 
-#: src/Pmpr/Package/ComponentManager/Model/Component.php:192
+#: src/Pmpr/Package/ComponentManager/Model/Component.php:194
 msgid "Theme"
 msgstr "پوسته"
 
-#: src/Pmpr/Package/ComponentManager/Model/Component.php:212
+#: src/Pmpr/Package/ComponentManager/Model/Component.php:214
 msgid "Publish"
 msgstr "انتشار"
 
-#: src/Pmpr/Package/ComponentManager/Model/Component.php:213
+#: src/Pmpr/Package/ComponentManager/Model/Component.php:215
 msgid "Review"
 msgstr "باز بینی"
 
-#: src/Pmpr/Package/ComponentManager/Model/Component.php:214
+#: src/Pmpr/Package/ComponentManager/Model/Component.php:216
 msgid "Draft"
 msgstr "پیش نویس"
+
+#: src/Pmpr/Package/ComponentManager/Model/Component.php:217
+msgid "Coming Soon"
+msgstr "به زودی"
 
 #: src/Pmpr/Package/ComponentManager/Model/Purchase.php:34
 msgid "Purchase"
@@ -511,16 +515,16 @@ msgid "No domain found for you."
 msgstr "دامنه‌ای برای شما یافت نشد."
 
 #: src/Pmpr/Package/ComponentManager/REST/Controller.php:141
-#: src/Pmpr/Package/ComponentManager/REST/Controller.php:184
+#: src/Pmpr/Package/ComponentManager/REST/Controller.php:186
 msgid "Require parameters not passed."
 msgstr "فیلد‌های ضروری ارائه نشده‌اند."
 
-#: src/Pmpr/Package/ComponentManager/REST/Controller.php:180
+#: src/Pmpr/Package/ComponentManager/REST/Controller.php:182
 #, php-format
 msgid "requested component with name %s not found."
 msgstr "کامپوننت درخواستی با نام %s یافت نشد."
 
-#: src/Pmpr/Package/ComponentManager/REST/Controller.php:233
+#: src/Pmpr/Package/ComponentManager/REST/Controller.php:238
 msgid ""
 "Sorry but it's sames your domain not registered. please register domain and "
 "then try again"
@@ -528,7 +532,7 @@ msgstr ""
 "به نظر می‌رسد دامنه شما ثبت نشده است، لطفا دامنه را ثبت کرده و دوباره امتحان "
 "کنید"
 
-#: src/Pmpr/Package/ComponentManager/REST/Controller.php:262
+#: src/Pmpr/Package/ComponentManager/REST/Controller.php:268
 msgid "Service is unavailable right now."
 msgstr "در حال حاضر قادر به سرویس دهی نیستم."
 
