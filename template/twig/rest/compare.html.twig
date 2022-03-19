@@ -1,0 +1,51 @@
+<style>
+    .compare-table .dashicons:before {
+        font-size: 2rem;
+    }
+    .compare-table .dashicons-yes {
+        color: #34a853;
+    }
+    .compare-table .dashicons-no {
+        color: #dd2c00;
+    }
+    .compare-table .bg-white {
+        background: white;
+    }
+    .compare-table .bg-gray {
+        background: #b2b3b6;
+    }
+    .compare-table .bg-gray-light {
+        background: #d7d7dc;
+    }
+</style>
+<div class="pb-5">{{ description|raw }}</div>
+<div class="row">
+    {% for item in items %}
+        <div class="col-12 col-md-6" id="compare-{{ item.name|esc_attr }}">
+            <table class="table compare-table">
+                <tbody>
+                <tr>
+                    <td style="border: none"></td>
+                    <th colspan="2" class="text-center bg-gray">{{ products_text|raw }}</th>
+                </tr>
+                <tr>
+                    <th style="border: none"></th>
+                    {% for key, column in item.columns %}
+                        <th id="{{ item.name|esc_attr }}-{{ key|esc_attr }}"
+                            class="text-center bg-gray-light" style="font-size: 1rem">{{ column|raw }}</th>
+                    {% endfor %}
+                </tr>
+                {% for row in item.rows %}
+                    <tr>
+                        <td class="bg-gray-light">{{ row.title|raw }}</td>
+                        {% for key, column in item.columns %}
+                            <td class="text-center bg-white">{{ row.data[key]|raw }}</td>
+                        {% endfor %}
+                    </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    {% endfor %}
+</div>
+
