@@ -4,4 +4,4 @@
     |             624022c9531c8             |
     |_______________________________________|
 */
- use Pmpr\Module\ComponentManager\ComponentManager; ComponentManager::symcgieuakksimmu();
+ namespace Pmpr\Module\ComponentManager\API; use Pmpr\Common\Foundation\API\API; class Common extends API { }

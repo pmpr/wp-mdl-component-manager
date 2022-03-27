@@ -1,2 +1,2 @@
-# wp-pkg-component-manager
+# wp-mod-component-manager
 
