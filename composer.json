@@ -1,5 +1,5 @@
 {
-  "name": "pmpr-mod/wp-mod-component-manager",
+  "name": "pmpr-mdl/wp-mdl-component-manager",
   "type": "project",
   "license": "proprietary",
   "description": "Component Manger Module for Wordpress",
@@ -11,7 +11,7 @@
   "require": {
     "php": ">=7.4",
     "pmpr-cmn/wp-cmn-foundation": "dev-main",
-    "pmpr-mod/wp-mod-domain-manager": "dev-main"
+    "pmpr-mdl/wp-mdl-domain-manager": "dev-main"
   },
   "autoload": {
     "psr-4": {

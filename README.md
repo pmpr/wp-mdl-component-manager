@@ -1,2 +1,2 @@
-# wp-mod-component-manager
+# wp-mdl-component-manager
 
