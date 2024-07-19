@@ -4,4 +4,4 @@
     |             669ada7994f22             |
     |_______________________________________|
 */
- use Pmpr\Module\ComponentManager\ComponentManager; ComponentManager::symcgieuakksimmu();
+ namespace Pmpr\Module\ComponentManager\Frontend; use Pmpr\Common\Foundation\Frontend\MultistepAware; abstract class Common extends MultistepAware { }

@@ -1,6 +1,7 @@
 {
-  "panel.js": "/js/panel.TcR3hCMqr.js",
-  "product.js": "/js/product.TcR3hCMqr.js",
-  "multistep.js": "/js/multistep.TcR3hCMqr.js",
-  "admin.js": "/js/admin.TcR3hCMqr.js"
+  "panel.js": "/js/panel.GAoHvB_df.js",
+  "product.js": "/js/product.GAoHvB_df.js",
+  "purchase_multistep.js": "/js/purchase_multistep.GAoHvB_df.js",
+  "install_request_multistep.js": "/js/install_request_multistep.GAoHvB_df.js",
+  "admin.js": "/js/admin.GAoHvB_df.js"
 }
