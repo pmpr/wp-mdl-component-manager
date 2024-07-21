@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PMPR Component Manager\n"
-"POT-Creation-Date: 2024-07-21 22:21+0330\n"
-"PO-Revision-Date: 2024-07-21 22:21+0330\n"
+"POT-Creation-Date: 2024-07-21 23:14+0330\n"
+"PO-Revision-Date: 2024-07-21 23:14+0330\n"
 "Last-Translator: pmpr.dev <pmpr.dev@gmail.com>\n"
 "Language-Team: \n"
 "Language: fa_IR\n"
@@ -82,6 +82,11 @@ msgstr "کد وارد شده شما برای %s معتبر نیست"
 #| msgid "Something is wrong, please refresh page and try again."
 msgid "Can not found component, please refresh page and try again."
 msgstr "مشکلی به وجود آمده است، لطفا دوباره امتحان کنید."
+
+#: src/Pmpr/Module/ComponentManager/Ajax.php:153
+#: src/Pmpr/Module/ComponentManager/Frontend/InstallRequestMultistep.php:181
+msgid "Entered serial not valid, please use a valid serial."
+msgstr "سریال وارد شده معتبر نیست، لطفا از سریال معتبر استفاده کنید."
 
 #: src/Pmpr/Module/ComponentManager/Ajax.php:169
 #, fuzzy
@@ -226,10 +231,6 @@ msgid ""
 msgstr ""
 "کارشناسان ما طی ساعات آتی فرآیند نصب و تنظیم ماژول را آغاز خواهند کرد و در "
 "صورت نیاز با کارشناس فنی شما در تماس خواهند بود."
-
-#: src/Pmpr/Module/ComponentManager/Frontend/InstallRequestMultistep.php:181
-msgid "Entered serial not valid, please use a valid serial."
-msgstr "سریال وارد شده معتبر نیست، لطفا از سریال معتبر استفاده کنید."
 
 #: src/Pmpr/Module/ComponentManager/Frontend/InstallRequestMultistep.php:182
 msgid "Check requirements confirmation."
@@ -1054,8 +1055,13 @@ msgstr "ماژول وردپرس"
 
 #: src/Pmpr/Module/ComponentManager/Setting.php:349
 #, php-format
-msgid "If needed, you can contact us through the %s page."
-msgstr "در صورت نیاز می‌توانید از طریق صفحه %s، با ما در اتباط باشید."
+msgid "If needed, you can contact us through the %s."
+msgstr "در صورت نیاز می‌توانید از طریق %s، با ما در اتباط باشید."
+
+#: src/Pmpr/Module/ComponentManager/Setting.php:351
+#, php-format
+msgid "Page %s"
+msgstr "صفحه %s"
 
 #~ msgid ""
 #~ "Can not add some of your selected variations to your cart, please try again."
@@ -1339,9 +1345,6 @@ msgstr "در صورت نیاز می‌توانید از طریق صفحه %s، �
 
 #~ msgid "%s Page"
 #~ msgstr "%s صفحه"
-
-#~ msgid "Pages"
-#~ msgstr "صفحات"
 
 #~ msgid "Domain Authorities"
 #~ msgstr "تغییرات اعتبار دامنه"
