@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PMPR Component Manager\n"
 "POT-Creation-Date: 2024-07-21 23:14+0330\n"
-"PO-Revision-Date: 2024-07-21 23:14+0330\n"
+"PO-Revision-Date: 2024-07-22 00:13+0330\n"
 "Last-Translator: pmpr.dev <pmpr.dev@gmail.com>\n"
 "Language-Team: \n"
 "Language: fa_IR\n"
@@ -1056,7 +1056,7 @@ msgstr "ماژول وردپرس"
 #: src/Pmpr/Module/ComponentManager/Setting.php:349
 #, php-format
 msgid "If needed, you can contact us through the %s."
-msgstr "در صورت نیاز می‌توانید از طریق %s، با ما در اتباط باشید."
+msgstr "در صورت نیاز می‌توانید از طریق %s، با ما در ارتباط باشید."
 
 #: src/Pmpr/Module/ComponentManager/Setting.php:351
 #, php-format
