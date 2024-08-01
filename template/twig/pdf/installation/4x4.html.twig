@@ -1,0 +1,71 @@
+{% extends get_template('./common', _self) %}
+
+{% block head %}
+    <style>
+
+        @page {
+            margin:  {{ 3.3|mm2px }} {{ 4.45|mm2px }};
+        }
+
+        .container {
+            margin: -{{2|mm2px}} -{{1.2|mm2px }};
+        }
+
+        table.labels {
+            border-spacing: {{1.5|mm2px}} {{2.75|mm2px }};
+            width: {{ 81.5|mm2px }};
+        }
+
+        table.labels > tr > td {
+        }
+
+        .label {
+            width: {{ 18.7|mm2px }};
+            max-width: {{ 18.7|mm2px }};
+            height: {{ 32.6|mm2px }};
+            max-height: {{ 32.6|mm2px }};
+        }
+
+        .aside {
+            position: absolute;
+            top: 8px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .date {
+            font-size: 9px;
+            line-height: .8;
+            letter-spacing: 1px;
+        }
+
+        .time, .product, .price {
+            line-height: 0;
+            text-align: center;
+        }
+
+        .main {
+            transform: rotate(90deg) translate(26%, 78.5%);
+            position: absolute;
+            left: 50%;
+            text-align: center;
+            padding-left: 24px;
+            line-height: .65;
+        }
+
+        .product {
+            margin: 8px 0;
+        }
+
+        .date, .serial {
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .serial {
+            font-size: 20px;
+            text-justify: inter-character;
+        }
+    </style>
+{% endblock %}
+

@@ -1,0 +1,110 @@
+{% extends get_template('./common', _self) %}
+
+{% block body %}
+    {% for chunk in chunks %}
+        <table class="labels font-roboto-mono">
+            {% for items in chunk %}
+                <tr>
+                    {% for item in items %}
+                        <td>
+                            <table class="label font-vazir" border="0">
+                                <tr class="aside">
+                                    <td class="time nowrap" rowspan="2">{{ item.time|raw }}</td>
+                                    <td class="date nowrap" rowspan="2">{{ item.date|raw }}</td>
+                                </tr>
+                                <tr class="main">
+                                    <td>
+                                        <div class="serial font-roboto-mono">{{ item.serial|raw }}</div>
+                                        <div class="product nowrap">{{ item.product|raw }}</div>
+                                        <table>
+                                            <tr class="price">
+                                                <td class="sale">{{ item.free|raw }}</td>
+                                                <td class="regular line-through nowrap">{{ item.regular_price|raw }}</td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    {% endfor %}
+                </tr>
+            {% endfor %}
+        </table>
+        {% if not loop.last %}
+            <div class="page-break"></div>
+        {% endif %}
+    {% endfor %}
+{% endblock %}
+
+{% block head %}
+    <style>
+        @page {
+            margin:  {{ 13.50|mm2px }} {{ 5.5|mm2px }};
+        }
+
+        table.labels {
+            width: {{ 198.3|mm2px }};
+        }
+
+        table.labels, table.labels > tr, table.labels > tr > td {
+            border-spacing: {{ 2|mm2px }} 0;
+            border: 0;
+        }
+
+        .label {
+            border-radius: 6px;
+            background: #e9e9e9;
+            white-space: nowrap;
+            width: {{ 34|mm2px }};
+            max-width: {{ 34|mm2px }};
+            height: {{ 18.6|mm2px }};
+            max-height: {{ 18.6|mm2px }};
+            padding: 4px;
+            position: relative;
+        }
+
+        .aside {
+            text-rotate: +90;
+            border-spacing: 0;
+        }
+
+        .time, .date {
+            text-align: center;
+        }
+
+        .time {
+            font-size: 10px;
+        }
+
+        .date {
+            font-weight: bold;
+            font-size: 12px
+        }
+
+        .main {
+            line-height: .8;
+            text-align: center;
+            padding-left: 27px;
+        }
+
+        .serial {
+            text-justify: inter-character;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .product {
+            font-size: 13px;
+            font-weight: bold;
+        }
+
+        .sale, .regular {
+            font-size: 13.5px;
+        }
+
+        .sale {
+            font-weight: bold;
+        }
+    </style>
+{% endblock %}
+

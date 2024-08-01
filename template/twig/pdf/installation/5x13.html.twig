@@ -1,0 +1,94 @@
+{% extends get_template('./common', _self) %}
+
+{% block body %}
+    {% for chunk in chunks %}
+        <table class="labels">
+            {% for items in chunk %}
+                <tr>
+                    {% for item in items %}
+                        <td class="label font-vazir">
+                            <div class="aside bg-red">
+                                <div class="time">
+                                    <img src="{{ expiration|raw }}" width="52" alt="svg">
+                                </div>
+                                <div class="date nowrap">{{ item.date|raw }}</div>
+                            </div>
+                            <div class="main bg-blue">
+                                <div class="serial font-roboto-mono">{{ item.serial|raw }}</div>
+                                <div class="product">
+                                    <img src="{{ subscription|raw }}" width="95" alt="svg">
+                                </div>
+                                <div class="price">
+                                    <img src="{{ free|raw }}" width="25" alt="svg">
+                                    <img src="{{ price|raw }}" width="65" alt="svg">
+                                </div>
+                            </div>
+                        </td>
+                    {% endfor %}
+                </tr>
+            {% endfor %}
+        </table>
+        {% if not loop.last %}
+            <div class="page-break"></div>
+        {% endif %}
+    {% endfor %}
+{% endblock %}
+
+{% block head %}
+    <style>
+
+        @page {
+            margin:  {{ 13.5|mm2px }} {{ 3.9|mm2px }} {{ 11.3|mm2px }} {{ 4.9|mm2px }};
+        }
+
+        table.labels {
+            border-spacing: {{2|mm2px}} 0;
+            width: {{ 198.3|mm2px }};
+        }
+
+        .label {
+            width: {{ 35.85|mm2px }};
+            max-width: {{ 35.85|mm2px }};
+            height: {{ 19.08|mm2px }};
+            max-height: {{ 19.08|mm2px }};
+            padding: 3.5px 8px 3.5px 0;
+        }
+
+        .aside {
+            transform: rotate(-90deg) translate(-47%, -25%);
+            position: absolute;
+        }
+
+        .date {
+            font-size: 9px;
+            line-height: .8;
+            letter-spacing: 1px;
+        }
+
+        .time, .product, .price {
+            line-height: 0;
+            text-align: center;
+        }
+
+        .main {
+            text-align: center;
+            padding-left: 32px;
+            line-height: .7;
+        }
+
+        .product {
+            margin: 4px 0 8px 0;
+        }
+
+        .date, .serial {
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .serial {
+            font-size: 23px;
+            text-justify: inter-character;
+        }
+    </style>
+{% endblock %}
+
