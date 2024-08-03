@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             66ab90a1d8e39             |
+    |             66aeb5c95242e             |
     |_______________________________________|
 */
- namespace Pmpr\Module\ComponentManager\Frontend; use Pmpr\Common\Foundation\Frontend\MultistepAware; abstract class Common extends MultistepAware { }
+ namespace Pmpr\Module\ComponentManager\Frontend; use Pmpr\Module\ComponentManager\Container; abstract class Common extends Container { }
