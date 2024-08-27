@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             66cb5f0875a04             |
+    |             66ce117a11525             |
     |_______________________________________|
 */
- namespace Pmpr\Module\ComponentManager\Frontend; class Frontend extends Common { public function mameiwsayuyquoeq() { } }
+ namespace Pmpr\Module\ComponentManager\Frontend; class Frontend extends Common { }
