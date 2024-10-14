@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PMPR Component Manager\n"
-"POT-Creation-Date: 2024-08-15 08:55+0330\n"
-"PO-Revision-Date: 2024-08-15 08:55+0330\n"
+"POT-Creation-Date: 2024-10-15 01:29+0330\n"
+"PO-Revision-Date: 2024-10-15 01:29+0330\n"
 "Last-Translator: pmpr.dev <pmpr.dev@gmail.com>\n"
 "Language-Team: \n"
 "Language: fa_IR\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 3.4.3\n"
+"X-Generator: Poedit 3.5\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-WPHeader: index.php\n"
 "X-Source-Language: en\n"
@@ -22,45 +22,45 @@ msgstr ""
 "X-Poedit-SearchPathExcluded-0: lib\n"
 "X-Poedit-SearchPathExcluded-1: *.js\n"
 
-#: src/Pmpr/Module/ComponentManager/Ajax.php:87
+#: src/Pmpr/Module/ComponentManager/Ajax.php:90
 msgid "Update pushed successfully."
 msgstr ""
 
-#: src/Pmpr/Module/ComponentManager/Ajax.php:91
+#: src/Pmpr/Module/ComponentManager/Ajax.php:94
 #, fuzzy
 #| msgid "Something is wrong, please try again after few minutes."
 msgid ""
 "Another process already running, please wait and try again few minutes later."
 msgstr "مشکلی پیش آمده است، لطفا بعد از گذشت چند دقیقه دوباره امتحان کنید."
 
-#: src/Pmpr/Module/ComponentManager/Ajax.php:95
+#: src/Pmpr/Module/ComponentManager/Ajax.php:98
 msgid "No domain founded."
 msgstr "دامنه‌ای یافت نشد."
 
-#: src/Pmpr/Module/ComponentManager/Ajax.php:99
-#: src/Pmpr/Module/ComponentManager/Ajax.php:191
+#: src/Pmpr/Module/ComponentManager/Ajax.php:102
+#: src/Pmpr/Module/ComponentManager/Ajax.php:197
 #: src/Pmpr/Module/ComponentManager/Frontend/PurchaseMultistep.php:136
-#: src/Pmpr/Module/ComponentManager/Model/Component.php:50
-#: src/Pmpr/Module/ComponentManager/Model/Installation.php:96
-#: src/Pmpr/Module/ComponentManager/Model/Installation.php:258
-#: src/Pmpr/Module/ComponentManager/Model/Purchase.php:40
+#: src/Pmpr/Module/ComponentManager/Model/Component.php:44
+#: src/Pmpr/Module/ComponentManager/Model/Installation.php:144
+#: src/Pmpr/Module/ComponentManager/Model/Installation.php:306
+#: src/Pmpr/Module/ComponentManager/Model/Purchase.php:75
 #: src/Pmpr/Module/ComponentManager/Model/Report.php:48
-#: src/Pmpr/Module/ComponentManager/Panel/Panel.php:49
-#: src/Pmpr/Module/ComponentManager/REST/Controller.php:40
-#: src/Pmpr/Module/ComponentManager/REST/Controller.php:162
+#: src/Pmpr/Module/ComponentManager/Panel/Panel.php:50
+#: src/Pmpr/Module/ComponentManager/REST/Controller.php:39
+#: src/Pmpr/Module/ComponentManager/REST/Controller.php:159
 msgid "Component"
 msgstr "کامپوننت"
 
-#: src/Pmpr/Module/ComponentManager/Ajax.php:103
+#: src/Pmpr/Module/ComponentManager/Ajax.php:106
 msgid "Domain manager component is not running."
 msgstr ""
 
-#: src/Pmpr/Module/ComponentManager/Ajax.php:153
+#: src/Pmpr/Module/ComponentManager/Ajax.php:158
 #, php-format
 msgid "%s installation generated successfully."
 msgstr "%s نصب با موفقیت ایجاد شد."
 
-#: src/Pmpr/Module/ComponentManager/Ajax.php:157
+#: src/Pmpr/Module/ComponentManager/Ajax.php:162
 msgid ""
 "Can not generate even one new installation, probably can not generate new uniq "
 "serial."
@@ -68,207 +68,207 @@ msgstr ""
 "قادر به ساخت نصب‌های جدید نیستیم، احتمالا مشکل در ایجاد سریال منحصر به فرد جدید "
 "است."
 
-#: src/Pmpr/Module/ComponentManager/Ajax.php:162
+#: src/Pmpr/Module/ComponentManager/Ajax.php:167
 #, php-format
 msgid "Please enter count value and it's muster a number bigger than %s"
 msgstr "لطفا فیلد تعداد را پر کنید، مقدار آن باید عددی بزرگتر از %s باشد"
 
-#: src/Pmpr/Module/ComponentManager/Ajax.php:198
-#: src/Pmpr/Module/ComponentManager/Ajax.php:418
-#: src/Pmpr/Module/ComponentManager/Model/Campaign.php:21
-#: src/Pmpr/Module/ComponentManager/Model/Installation.php:86
-#: src/Pmpr/Module/ComponentManager/Model/Installation.php:262
+#: src/Pmpr/Module/ComponentManager/Ajax.php:204
+#: src/Pmpr/Module/ComponentManager/Ajax.php:431
+#: src/Pmpr/Module/ComponentManager/Model/Campaign.php:20
+#: src/Pmpr/Module/ComponentManager/Model/Installation.php:134
+#: src/Pmpr/Module/ComponentManager/Model/Installation.php:310
 msgid "Campaign"
 msgstr "کمپین"
 
-#: src/Pmpr/Module/ComponentManager/Ajax.php:205
-#: src/Pmpr/Module/ComponentManager/Model/Installation.php:243
-#: src/Pmpr/Module/ComponentManager/Model/Installation.php:254
+#: src/Pmpr/Module/ComponentManager/Ajax.php:211
+#: src/Pmpr/Module/ComponentManager/Model/Installation.php:291
+#: src/Pmpr/Module/ComponentManager/Model/Installation.php:302
 msgid "Range"
 msgstr "رنج"
 
-#: src/Pmpr/Module/ComponentManager/Ajax.php:229
+#: src/Pmpr/Module/ComponentManager/Ajax.php:235
 msgid "Free"
 msgstr "رایگان"
 
-#: src/Pmpr/Module/ComponentManager/Ajax.php:233
+#: src/Pmpr/Module/ComponentManager/Ajax.php:238
 msgid "One Year Silver Subscription"
 msgstr "اشتراک یک‌ساله نقره‌ای"
 
-#: src/Pmpr/Module/ComponentManager/Ajax.php:268
+#: src/Pmpr/Module/ComponentManager/Ajax.php:281
 #, php-format
 msgid "Your requested pdf is generated successfully and you can see it from %s."
 msgstr ""
 "فایل پی دی اف درخواستی شما با موفقیت ایجاد شد و شما می‌توانید آن را %s ببینید."
 
-#: src/Pmpr/Module/ComponentManager/Ajax.php:270
+#: src/Pmpr/Module/ComponentManager/Ajax.php:283
 msgid "Here"
 msgstr "اینجا"
 
-#: src/Pmpr/Module/ComponentManager/Ajax.php:281
+#: src/Pmpr/Module/ComponentManager/Ajax.php:294
 msgid "There is no not assigned installation by selected filter."
 msgstr ""
 
-#: src/Pmpr/Module/ComponentManager/Ajax.php:351
-#: src/Pmpr/Module/ComponentManager/Frontend/InstallRequestMultistep.php:153
+#: src/Pmpr/Module/ComponentManager/Ajax.php:363
+#: src/Pmpr/Module/ComponentManager/Frontend/InstallRequestMultistep.php:154
 msgid "The serial number field cannot be empty."
 msgstr "فیلد شماره سریال نمی‌تواند خالی باشد."
 
-#: src/Pmpr/Module/ComponentManager/Ajax.php:354
-#: src/Pmpr/Module/ComponentManager/Frontend/InstallRequestMultistep.php:154
+#: src/Pmpr/Module/ComponentManager/Ajax.php:366
+#: src/Pmpr/Module/ComponentManager/Frontend/InstallRequestMultistep.php:155
 msgid ""
 "The serial number entered is not valid. Please enter a valid serial number."
 msgstr "سریال وارد شده معتبر نیست. لطفا یک سریال معتبر وارد کنید."
 
-#: src/Pmpr/Module/ComponentManager/Ajax.php:399
-#: src/Pmpr/Module/ComponentManager/Frontend/InstallRequestMultistep.php:41
+#: src/Pmpr/Module/ComponentManager/Ajax.php:412
+#: src/Pmpr/Module/ComponentManager/Frontend/InstallRequestMultistep.php:42
 msgid "Setup Serial"
 msgstr "سریال نصب"
 
-#: src/Pmpr/Module/ComponentManager/Ajax.php:403
+#: src/Pmpr/Module/ComponentManager/Ajax.php:416
 msgid "Validity Date"
 msgstr "تاریخ اعتبار"
 
-#: src/Pmpr/Module/ComponentManager/Ajax.php:406
+#: src/Pmpr/Module/ComponentManager/Ajax.php:419
 #, php-format
 msgid "Time %s Day %s"
 msgstr "ساعت %s روز %s"
 
-#: src/Pmpr/Module/ComponentManager/Ajax.php:410
+#: src/Pmpr/Module/ComponentManager/Ajax.php:423
 msgid "Site Name"
 msgstr "نام سایت"
 
-#: src/Pmpr/Module/ComponentManager/Ajax.php:414
+#: src/Pmpr/Module/ComponentManager/Ajax.php:427
 msgid "Site Domain"
 msgstr "دامنه سایت"
 
-#: src/Pmpr/Module/ComponentManager/Ajax.php:424
+#: src/Pmpr/Module/ComponentManager/Ajax.php:437
 #: src/Pmpr/Module/ComponentManager/Frontend/PurchaseMultistep.php:140
-#: src/Pmpr/Module/ComponentManager/Model/Component.php:120
-#: src/Pmpr/Module/ComponentManager/Model/Installation.php:58
+#: src/Pmpr/Module/ComponentManager/Model/Component.php:123
+#: src/Pmpr/Module/ComponentManager/Model/Installation.php:67
 msgid "Product"
 msgstr "محصول"
 
-#: src/Pmpr/Module/ComponentManager/Ajax.php:428
+#: src/Pmpr/Module/ComponentManager/Ajax.php:441
 #: src/Pmpr/Module/ComponentManager/Frontend/PurchaseMultistep.php:143
 msgid "Price"
 msgstr "قیمت"
 
-#: src/Pmpr/Module/ComponentManager/Ajax.php:432
+#: src/Pmpr/Module/ComponentManager/Ajax.php:445
 msgid "Discount"
 msgstr "تخفیف"
 
-#: src/Pmpr/Module/ComponentManager/Ajax.php:436
+#: src/Pmpr/Module/ComponentManager/Ajax.php:449
 msgid "Price for You"
 msgstr "قیمت برای شما"
 
-#: src/Pmpr/Module/ComponentManager/Ajax.php:449
+#: src/Pmpr/Module/ComponentManager/Ajax.php:462
 msgid "Sorry but your installation is expired."
 msgstr "متاسفانه مهلت شما برای درخواست نصب به پایان رسیده است."
 
-#: src/Pmpr/Module/ComponentManager/Ajax.php:454
+#: src/Pmpr/Module/ComponentManager/Ajax.php:467
 #, php-format
 msgid "Your entered code is not valid for %s"
 msgstr "کد وارد شده شما برای %s معتبر نیست"
 
-#: src/Pmpr/Module/ComponentManager/Ajax.php:460
+#: src/Pmpr/Module/ComponentManager/Ajax.php:473
 msgid "Can not found component, please refresh page and try again."
 msgstr ""
 "قادر به یافتن کامپوننت درخواستی نیستیم، لطفا با رفرش صفحه دوباره تلاش کنید."
 
-#: src/Pmpr/Module/ComponentManager/Ajax.php:478
+#: src/Pmpr/Module/ComponentManager/Ajax.php:490
 msgid "Please accept requirements confirmation first."
 msgstr "لطفا ابتدا با زدن چک باکس نیازمندی‌ها، فرآهم بود آنها را تایید کنید."
 
-#: src/Pmpr/Module/ComponentManager/Ajax.php:481
-#: src/Pmpr/Module/ComponentManager/Frontend/InstallRequestMultistep.php:158
+#: src/Pmpr/Module/ComponentManager/Ajax.php:493
+#: src/Pmpr/Module/ComponentManager/Frontend/InstallRequestMultistep.php:159
 #: src/Pmpr/Module/ComponentManager/Frontend/PurchaseMultistep.php:162
 msgid "Please accept terms of use first."
 msgstr "لطفا شرایط استفاده را مطالعه کرده و بپذیرید."
 
-#: src/Pmpr/Module/ComponentManager/Ajax.php:533
+#: src/Pmpr/Module/ComponentManager/Ajax.php:548
 #, php-format
 msgid "%s not a valid mobile number"
 msgstr "%s شماره تلفن همراه معتبری نیست"
 
-#: src/Pmpr/Module/ComponentManager/Ajax.php:550
+#: src/Pmpr/Module/ComponentManager/Ajax.php:564
 msgid "Submitted successfully."
 msgstr "با موفقیت ثبت شد."
 
-#: src/Pmpr/Module/ComponentManager/Ajax.php:562
+#: src/Pmpr/Module/ComponentManager/Ajax.php:573
 msgid "Your entered setup serial is not valid."
 msgstr "سریال نصبی که وارد کردید معتبر نیست."
 
-#: src/Pmpr/Module/ComponentManager/Ajax.php:566
+#: src/Pmpr/Module/ComponentManager/Ajax.php:577
 msgid "Your request is not valid, please refresh page and try again."
 msgstr "درخواست شما معتبر نیست، لطفا صفحه را رفرش کرده و مجدد تلاش کنید."
 
-#: src/Pmpr/Module/ComponentManager/Ajax.php:581
+#: src/Pmpr/Module/ComponentManager/Ajax.php:591
 msgid ""
 "Previously, a request to install the speed-up module has been registered with "
 "the same code."
 msgstr "پیش از این، درخواستی برای نصب ماژول افزایش سرعت با همین کد ثبت شده است."
 
-#: src/Pmpr/Module/ComponentManager/ComponentManager.php:24
+#: src/Pmpr/Module/ComponentManager/ComponentManager.php:28
 msgid "Component Manager"
 msgstr "م کامپوننت‌ها"
 
-#: src/Pmpr/Module/ComponentManager/ComponentManager.php:181
-#: src/Pmpr/Module/ComponentManager/Setting.php:152
+#: src/Pmpr/Module/ComponentManager/ComponentManager.php:185
+#: src/Pmpr/Module/ComponentManager/Setting.php:151
 msgid "PMPR Plugin"
 msgstr "افزونه مهندس محمدپور"
 
-#: src/Pmpr/Module/ComponentManager/ComponentManager.php:206
+#: src/Pmpr/Module/ComponentManager/ComponentManager.php:210
 #, php-format
 msgid "You can get help from the %s to install the %s."
 msgstr "برای نصب %s می توانید از %s کمک بگیرید."
 
-#: src/Pmpr/Module/ComponentManager/Frontend/InstallRequestMultistep.php:47
+#: src/Pmpr/Module/ComponentManager/Frontend/InstallRequestMultistep.php:48
 msgid "Check Serial"
 msgstr "بررسی سریال"
 
-#: src/Pmpr/Module/ComponentManager/Frontend/InstallRequestMultistep.php:59
-#: src/Pmpr/Module/ComponentManager/Setting.php:418
+#: src/Pmpr/Module/ComponentManager/Frontend/InstallRequestMultistep.php:60
+#: src/Pmpr/Module/ComponentManager/Setting.php:417
 msgid "Guide"
 msgstr "راهنما"
 
-#: src/Pmpr/Module/ComponentManager/Frontend/InstallRequestMultistep.php:63
+#: src/Pmpr/Module/ComponentManager/Frontend/InstallRequestMultistep.php:64
 msgid "All the above items are available and I am ready for the installation"
 msgstr "همه موارد بالا فراهم است و آماده نصب هستم"
 
-#: src/Pmpr/Module/ComponentManager/Frontend/InstallRequestMultistep.php:76
+#: src/Pmpr/Module/ComponentManager/Frontend/InstallRequestMultistep.php:77
 msgid "Site Technical Assistant"
 msgstr "مسئول فنی سایت"
 
-#: src/Pmpr/Module/ComponentManager/Frontend/InstallRequestMultistep.php:79
-#: src/Pmpr/Module/ComponentManager/Model/Installation.php:63
+#: src/Pmpr/Module/ComponentManager/Frontend/InstallRequestMultistep.php:80
+#: src/Pmpr/Module/ComponentManager/Model/Installation.php:79
 msgid "Full Name"
 msgstr "نام و نام خانوادگی"
 
-#: src/Pmpr/Module/ComponentManager/Frontend/InstallRequestMultistep.php:82
+#: src/Pmpr/Module/ComponentManager/Frontend/InstallRequestMultistep.php:83
 msgid "Mobile"
 msgstr "شماره تلفن همراه"
 
-#: src/Pmpr/Module/ComponentManager/Frontend/InstallRequestMultistep.php:85
-#: src/Pmpr/Module/ComponentManager/Model/Request.php:51
+#: src/Pmpr/Module/ComponentManager/Frontend/InstallRequestMultistep.php:86
+#: src/Pmpr/Module/ComponentManager/Model/Request.php:59
 msgid "Answering Method"
 msgstr "شیوه پاسخگویی"
 
-#: src/Pmpr/Module/ComponentManager/Frontend/InstallRequestMultistep.php:92
-#: src/Pmpr/Module/ComponentManager/Model/Request.php:58
+#: src/Pmpr/Module/ComponentManager/Frontend/InstallRequestMultistep.php:93
+#: src/Pmpr/Module/ComponentManager/Model/Request.php:67
 msgid "Answering Days"
 msgstr "روز‌های پاسخگویی"
 
-#: src/Pmpr/Module/ComponentManager/Frontend/InstallRequestMultistep.php:99
-#: src/Pmpr/Module/ComponentManager/Model/Request.php:65
+#: src/Pmpr/Module/ComponentManager/Frontend/InstallRequestMultistep.php:100
+#: src/Pmpr/Module/ComponentManager/Model/Request.php:75
 msgid "Answering Hours"
 msgstr "ساعات پاسخگویی"
 
-#: src/Pmpr/Module/ComponentManager/Frontend/InstallRequestMultistep.php:106
+#: src/Pmpr/Module/ComponentManager/Frontend/InstallRequestMultistep.php:107
 msgid "Login to Wordpress Admin Panel"
 msgstr "ورود به پنل مدیریت وردپرس"
 
-#: src/Pmpr/Module/ComponentManager/Frontend/InstallRequestMultistep.php:108
+#: src/Pmpr/Module/ComponentManager/Frontend/InstallRequestMultistep.php:109
 msgid ""
 "Our experts need to log in to the WordPress management panel of your site to "
 "install and adjust the speed increase module. For this purpose, create a "
@@ -282,25 +282,25 @@ msgstr ""
 "اطلاعات آن را در فرم زیر وارد کنید. پس از اتمام فرآیند نصب و تنظیم می‌توانید "
 "کاربر مذکور را حذف کرده یا سطح دسترسی آن را به مشترک کاهش دهید."
 
-#: src/Pmpr/Module/ComponentManager/Frontend/InstallRequestMultistep.php:114
-#: src/Pmpr/Module/ComponentManager/Model/Request.php:80
+#: src/Pmpr/Module/ComponentManager/Frontend/InstallRequestMultistep.php:115
+#: src/Pmpr/Module/ComponentManager/Model/Request.php:90
 msgid "Admin Endpoint"
 msgstr "آدرس پنل مدیریت"
 
-#: src/Pmpr/Module/ComponentManager/Frontend/InstallRequestMultistep.php:117
+#: src/Pmpr/Module/ComponentManager/Frontend/InstallRequestMultistep.php:118
 msgid "Username"
 msgstr "نام کاربری"
 
-#: src/Pmpr/Module/ComponentManager/Frontend/InstallRequestMultistep.php:120
+#: src/Pmpr/Module/ComponentManager/Frontend/InstallRequestMultistep.php:121
 msgid "Password"
 msgstr "رمز عبور"
 
-#: src/Pmpr/Module/ComponentManager/Frontend/InstallRequestMultistep.php:123
-#: src/Pmpr/Module/ComponentManager/Model/Request.php:92
+#: src/Pmpr/Module/ComponentManager/Frontend/InstallRequestMultistep.php:124
+#: src/Pmpr/Module/ComponentManager/Model/Request.php:105
 msgid "Necessary Explanations"
 msgstr "توضیحات ضروری"
 
-#: src/Pmpr/Module/ComponentManager/Frontend/InstallRequestMultistep.php:125
+#: src/Pmpr/Module/ComponentManager/Frontend/InstallRequestMultistep.php:126
 msgid ""
 "For example, the activation of 2FA or the need to enter with an Iranian IP or "
 "any type of information and requirements for successful entry."
@@ -308,13 +308,13 @@ msgstr ""
 "برای مثال فعال بودن 2FA یا لزوم ورود با IP ایران یا هر نوع اطلاعات و الزامات "
 "برای ورود موفق."
 
-#: src/Pmpr/Module/ComponentManager/Frontend/InstallRequestMultistep.php:137
+#: src/Pmpr/Module/ComponentManager/Frontend/InstallRequestMultistep.php:138
 msgid ""
 "We have received the request to install the speed increase module for your "
 "WordPress site."
 msgstr "درخواست نصب ماژول افزایش سرعت برای سایت وردپرسی شما را دریافت کردیم."
 
-#: src/Pmpr/Module/ComponentManager/Frontend/InstallRequestMultistep.php:138
+#: src/Pmpr/Module/ComponentManager/Frontend/InstallRequestMultistep.php:139
 msgid ""
 "Our experts will start the process of installing and adjusting the module in "
 "the next few hours and will be in contact with your technical expert if needed."
@@ -322,64 +322,64 @@ msgstr ""
 "کارشناسان ما طی ساعات آتی فرآیند نصب و تنظیم ماژول را آغاز خواهند کرد و در "
 "صورت نیاز با کارشناس فنی شما در تماس خواهند بود."
 
-#: src/Pmpr/Module/ComponentManager/Frontend/InstallRequestMultistep.php:155
+#: src/Pmpr/Module/ComponentManager/Frontend/InstallRequestMultistep.php:156
 msgid "Check requirements confirmation."
 msgstr "لطفا ابتدا تاییدیه نیازمندی‌ها را تایید کنید."
 
-#: src/Pmpr/Module/ComponentManager/Frontend/InstallRequestMultistep.php:156
+#: src/Pmpr/Module/ComponentManager/Frontend/InstallRequestMultistep.php:157
 msgid "Please insert serial to check your request."
 msgstr "لطفا ابتدا سریال نصب خود را به منظور بررسی درخواست وارد کنید."
 
-#: src/Pmpr/Module/ComponentManager/Frontend/InstallRequestMultistep.php:157
+#: src/Pmpr/Module/ComponentManager/Frontend/InstallRequestMultistep.php:158
 msgid "Please fill required fields."
 msgstr "لطفا فیلد‌های ضروری را پر کنید."
 
-#: src/Pmpr/Module/ComponentManager/Frontend/InstallRequestMultistep.php:162
+#: src/Pmpr/Module/ComponentManager/Frontend/InstallRequestMultistep.php:163
 msgid "field can not be empty."
 msgstr "فیلد نمی تواند خالی باشد."
 
-#: src/Pmpr/Module/ComponentManager/Frontend/InstallRequestMultistep.php:187
+#: src/Pmpr/Module/ComponentManager/Frontend/InstallRequestMultistep.php:188
 #: src/Pmpr/Module/ComponentManager/Security.php:35
 msgid "Check Setup Serial"
 msgstr "بررسی سریال نصب"
 
-#: src/Pmpr/Module/ComponentManager/Frontend/InstallRequestMultistep.php:188
+#: src/Pmpr/Module/ComponentManager/Frontend/InstallRequestMultistep.php:189
 msgid "User should insert his/her setup serial."
 msgstr "کاربر باید سریال نصب خود را وارد کند."
 
-#: src/Pmpr/Module/ComponentManager/Frontend/InstallRequestMultistep.php:197
+#: src/Pmpr/Module/ComponentManager/Frontend/InstallRequestMultistep.php:198
 msgid "Show Requirements"
 msgstr "نمایش موارد ضروری"
 
-#: src/Pmpr/Module/ComponentManager/Frontend/InstallRequestMultistep.php:198
+#: src/Pmpr/Module/ComponentManager/Frontend/InstallRequestMultistep.php:199
 msgid "Show setup requirements to user."
 msgstr "نمایش نیازمندی‌های لازم برای نصب به کاربر."
 
-#: src/Pmpr/Module/ComponentManager/Frontend/InstallRequestMultistep.php:207
+#: src/Pmpr/Module/ComponentManager/Frontend/InstallRequestMultistep.php:208
 msgid "Setup Required information"
 msgstr "اطلاعات ضروری برای نصب"
 
-#: src/Pmpr/Module/ComponentManager/Frontend/InstallRequestMultistep.php:208
+#: src/Pmpr/Module/ComponentManager/Frontend/InstallRequestMultistep.php:209
 msgid "User should give his/her sites requirements."
 msgstr ""
 
-#: src/Pmpr/Module/ComponentManager/Frontend/Multistep.php:43
+#: src/Pmpr/Module/ComponentManager/Frontend/Multistep.php:44
 msgid "I fully use the terms and accept them"
 msgstr "از شرایط استفاده آگاهی کامل دارم و آن را می‌پذیرم"
 
-#: src/Pmpr/Module/ComponentManager/Frontend/Multistep.php:64
+#: src/Pmpr/Module/ComponentManager/Frontend/Multistep.php:65
 msgid "Consent"
 msgstr "موافقت"
 
-#: src/Pmpr/Module/ComponentManager/Frontend/Multistep.php:65
+#: src/Pmpr/Module/ComponentManager/Frontend/Multistep.php:66
 msgid "User should consent terms of use."
 msgstr "کاربر باید شرایط استفاده را بپذیرد."
 
-#: src/Pmpr/Module/ComponentManager/Frontend/Multistep.php:74
+#: src/Pmpr/Module/ComponentManager/Frontend/Multistep.php:75
 msgid "Thank you"
 msgstr "تشکر"
 
-#: src/Pmpr/Module/ComponentManager/Frontend/Multistep.php:75
+#: src/Pmpr/Module/ComponentManager/Frontend/Multistep.php:76
 msgid "Show a thank you message to user after submit request."
 msgstr "نمایش پیام تشکر به کاربر بعد از ارسال درخواست."
 
@@ -417,10 +417,10 @@ msgstr "کالای ورزشی عماد"
 
 #: src/Pmpr/Module/ComponentManager/Frontend/PurchaseMultistep.php:79
 #: src/Pmpr/Module/ComponentManager/Frontend/PurchaseMultistep.php:133
-#: src/Pmpr/Module/ComponentManager/Model/Installation.php:91
-#: src/Pmpr/Module/ComponentManager/Model/Purchase.php:36
-#: src/Pmpr/Module/ComponentManager/Model/Report.php:37
-#: src/Pmpr/Module/ComponentManager/Panel/Panel.php:48
+#: src/Pmpr/Module/ComponentManager/Model/Installation.php:139
+#: src/Pmpr/Module/ComponentManager/Model/Purchase.php:47
+#: src/Pmpr/Module/ComponentManager/Model/Report.php:35
+#: src/Pmpr/Module/ComponentManager/Panel/Panel.php:49
 msgid "Domain"
 msgstr "دامنه"
 
@@ -473,96 +473,113 @@ msgstr "انتخاب دامنه"
 msgid "User should choice his/her site domain."
 msgstr "کاربر باید دامنه خود را مشخص کند."
 
-#: src/Pmpr/Module/ComponentManager/Model/Campaign.php:22
+#: src/Pmpr/Module/ComponentManager/Model/Campaign.php:19
 msgid "Campaigns"
 msgstr "کمپین‌ها"
 
-#: src/Pmpr/Module/ComponentManager/Model/Campaign.php:32
-#: src/Pmpr/Module/ComponentManager/Model/Campaign.php:36
-#: src/Pmpr/Module/ComponentManager/Setting.php:81
-#: src/Pmpr/Module/ComponentManager/Setting.php:163
-#: src/Pmpr/Module/ComponentManager/Setting.php:189
+#: src/Pmpr/Module/ComponentManager/Model/Campaign.php:39
+#: src/Pmpr/Module/ComponentManager/Setting.php:80
+#: src/Pmpr/Module/ComponentManager/Setting.php:162
+#: src/Pmpr/Module/ComponentManager/Setting.php:188
 msgid "Title"
 msgstr "عنوان"
 
-#: src/Pmpr/Module/ComponentManager/Model/Component.php:51
-#: src/Pmpr/Module/ComponentManager/Setting.php:69
+#: src/Pmpr/Module/ComponentManager/Model/Campaign.php:43
+msgid "Gallery"
+msgstr "گالری"
+
+#: src/Pmpr/Module/ComponentManager/Model/Campaign.php:48
+#: src/Pmpr/Module/ComponentManager/Model/Installation.php:34
+msgid "Installations"
+msgstr "نصب‌ها"
+
+#: src/Pmpr/Module/ComponentManager/Model/Campaign.php:53
+#: src/Pmpr/Module/ComponentManager/Model/Component.php:214
+#: src/Pmpr/Module/ComponentManager/Model/Installation.php:149
+#: src/Pmpr/Module/ComponentManager/Model/Purchase.php:120
+#: src/Pmpr/Module/ComponentManager/Model/Report.php:58
+#: src/Pmpr/Module/ComponentManager/Model/Request.php:123
+msgid "Created At"
+msgstr "تاریخ ایجاد"
+
+#: src/Pmpr/Module/ComponentManager/Model/Campaign.php:73
+#: src/Pmpr/Module/ComponentManager/Model/Component.php:158
+msgid "Image"
+msgstr "تصویر"
+
+#: src/Pmpr/Module/ComponentManager/Model/Component.php:43
+#: src/Pmpr/Module/ComponentManager/Setting.php:68
 msgid "Components"
 msgstr "کامپوننت‌ها"
 
 #: src/Pmpr/Module/ComponentManager/Model/Component.php:67
-#: src/Pmpr/Module/ComponentManager/Model/Component.php:70
-msgid "Update Data"
-msgstr "به روز رسانی"
-
-#: src/Pmpr/Module/ComponentManager/Model/Component.php:81
-#: src/Pmpr/Module/ComponentManager/Setting.php:91
+#: src/Pmpr/Module/ComponentManager/Setting.php:90
 msgid "Component Name"
 msgstr "نام کامپوننت"
 
-#: src/Pmpr/Module/ComponentManager/Model/Component.php:84
+#: src/Pmpr/Module/ComponentManager/Model/Component.php:71
 msgid "Persian Title"
 msgstr "عنوان فارسی"
 
-#: src/Pmpr/Module/ComponentManager/Model/Component.php:87
+#: src/Pmpr/Module/ComponentManager/Model/Component.php:76
 msgid "English Title"
 msgstr "عنوان انگلیسی"
 
-#: src/Pmpr/Module/ComponentManager/Model/Component.php:90
-#: src/Pmpr/Module/ComponentManager/Setting.php:194
-msgid "Module"
-msgstr "ماژول"
-
-#: src/Pmpr/Module/ComponentManager/Model/Component.php:91
-#: src/Pmpr/Module/ComponentManager/Setting.php:195
-msgid "Cover"
-msgstr "کاور"
-
-#: src/Pmpr/Module/ComponentManager/Model/Component.php:92
-msgid "Custom"
-msgstr "سفارشی"
-
-#: src/Pmpr/Module/ComponentManager/Model/Component.php:93
-msgid "Common"
-msgstr "عمومی"
-
-#: src/Pmpr/Module/ComponentManager/Model/Component.php:94
-#: src/Pmpr/Module/ComponentManager/Model/Component.php:249
+#: src/Pmpr/Module/ComponentManager/Model/Component.php:82
+#: src/Pmpr/Module/ComponentManager/Model/Component.php:309
 #: src/Pmpr/Module/ComponentManager/Model/Report.php:54
-#: src/Pmpr/Module/ComponentManager/Panel/Panel.php:50
-#: src/Pmpr/Module/ComponentManager/Setting.php:193
+#: src/Pmpr/Module/ComponentManager/Panel/Panel.php:51
+#: src/Pmpr/Module/ComponentManager/Setting.php:192
 msgid "Type"
 msgstr "نوع"
 
-#: src/Pmpr/Module/ComponentManager/Model/Component.php:97
-msgid "Coming Soon"
-msgstr "به زودی"
+#: src/Pmpr/Module/ComponentManager/Model/Component.php:83
+#: src/Pmpr/Module/ComponentManager/Setting.php:193
+msgid "Module"
+msgstr "ماژول"
 
-#: src/Pmpr/Module/ComponentManager/Model/Component.php:98
-msgid "Publish"
-msgstr "انتشار"
+#: src/Pmpr/Module/ComponentManager/Model/Component.php:84
+#: src/Pmpr/Module/ComponentManager/Setting.php:194
+msgid "Cover"
+msgstr "کاور"
 
-#: src/Pmpr/Module/ComponentManager/Model/Component.php:99
-msgid "Review"
-msgstr "باز بینی"
+#: src/Pmpr/Module/ComponentManager/Model/Component.php:85
+msgid "Custom"
+msgstr "سفارشی"
 
-#: src/Pmpr/Module/ComponentManager/Model/Component.php:100
-msgid "Draft"
-msgstr "پیش نویس"
+#: src/Pmpr/Module/ComponentManager/Model/Component.php:86
+msgid "Common"
+msgstr "عمومی"
 
-#: src/Pmpr/Module/ComponentManager/Model/Component.php:101
+#: src/Pmpr/Module/ComponentManager/Model/Component.php:90
 msgid "Status"
 msgstr "وضعیت"
 
-#: src/Pmpr/Module/ComponentManager/Model/Component.php:104
+#: src/Pmpr/Module/ComponentManager/Model/Component.php:91
+msgid "Coming Soon"
+msgstr "به زودی"
+
+#: src/Pmpr/Module/ComponentManager/Model/Component.php:92
+msgid "Publish"
+msgstr "انتشار"
+
+#: src/Pmpr/Module/ComponentManager/Model/Component.php:93
+msgid "Review"
+msgstr "باز بینی"
+
+#: src/Pmpr/Module/ComponentManager/Model/Component.php:94
+msgid "Draft"
+msgstr "پیش نویس"
+
+#: src/Pmpr/Module/ComponentManager/Model/Component.php:99
 msgid "Start Count"
 msgstr "تعداد شروع"
 
-#: src/Pmpr/Module/ComponentManager/Model/Component.php:107
+#: src/Pmpr/Module/ComponentManager/Model/Component.php:103
 msgid "Priority"
 msgstr "اولویت"
 
-#: src/Pmpr/Module/ComponentManager/Model/Component.php:110
+#: src/Pmpr/Module/ComponentManager/Model/Component.php:108
 msgid "Daily Count"
 msgstr "تعداد روزانه"
 
@@ -570,93 +587,89 @@ msgstr "تعداد روزانه"
 msgid "Real Count"
 msgstr "تعداد واقعی"
 
-#: src/Pmpr/Module/ComponentManager/Model/Component.php:116
+#: src/Pmpr/Module/ComponentManager/Model/Component.php:118
 msgid "Publish Due"
 msgstr "تاریخ تقریبی انتشار"
 
-#: src/Pmpr/Module/ComponentManager/Model/Component.php:124
-#: src/Pmpr/Module/ComponentManager/Setting.php:160
+#: src/Pmpr/Module/ComponentManager/Model/Component.php:134
+#: src/Pmpr/Module/ComponentManager/Setting.php:159
 msgid "Backlink Modal"
 msgstr "مودال بک لینک"
 
-#: src/Pmpr/Module/ComponentManager/Model/Component.php:128
-msgid "Assigned Domains"
-msgstr "دامنه‌های اختصاص داده شده"
-
-#: src/Pmpr/Module/ComponentManager/Model/Component.php:131
-msgid "Image"
-msgstr "تصویر"
-
-#: src/Pmpr/Module/ComponentManager/Model/Component.php:134
+#: src/Pmpr/Module/ComponentManager/Model/Component.php:169
 msgid "Persian Description"
 msgstr "شرح فارسی"
 
-#: src/Pmpr/Module/ComponentManager/Model/Component.php:137
+#: src/Pmpr/Module/ComponentManager/Model/Component.php:174
 msgid "English Description"
 msgstr "شرح انگلیسی"
 
-#: src/Pmpr/Module/ComponentManager/Model/Component.php:140
-#: src/Pmpr/Module/ComponentManager/Setting.php:101
+#: src/Pmpr/Module/ComponentManager/Model/Component.php:179
+#: src/Pmpr/Module/ComponentManager/Setting.php:100
 msgid "Terms of Use"
 msgstr "شرایط استفاده"
 
-#: src/Pmpr/Module/ComponentManager/Model/Component.php:144
+#: src/Pmpr/Module/ComponentManager/Model/Component.php:185
+msgid "Assigned Domains"
+msgstr "دامنه‌های اختصاص داده شده"
+
+#: src/Pmpr/Module/ComponentManager/Model/Component.php:190
 msgid "Backlinks"
 msgstr "بک لینک‌ها"
 
-#: src/Pmpr/Module/ComponentManager/Model/Component.php:148
-#: src/Pmpr/Module/ComponentManager/Model/Report.php:30
+#: src/Pmpr/Module/ComponentManager/Model/Component.php:195
+#: src/Pmpr/Module/ComponentManager/Model/Report.php:24
 msgid "Reports"
 msgstr "گزارشات"
 
-#: src/Pmpr/Module/ComponentManager/Model/Component.php:151
+#: src/Pmpr/Module/ComponentManager/Model/Component.php:199
 msgid "Version"
 msgstr "نسخه"
 
-#: src/Pmpr/Module/ComponentManager/Model/Component.php:154
+#: src/Pmpr/Module/ComponentManager/Model/Component.php:204
 msgid "Last Update"
 msgstr "آخرین بروز رسانی"
 
-#: src/Pmpr/Module/ComponentManager/Model/Component.php:157
-#: src/Pmpr/Module/ComponentManager/Setting.php:107
+#: src/Pmpr/Module/ComponentManager/Model/Component.php:209
+#: src/Pmpr/Module/ComponentManager/Setting.php:106
 msgid "Requirements"
 msgstr "نیازمندی‌ها"
 
-#: src/Pmpr/Module/ComponentManager/Model/Component.php:250
-#: src/Pmpr/Module/ComponentManager/Setting.php:60
+#: src/Pmpr/Module/ComponentManager/Model/Component.php:310
+#: src/Pmpr/Module/ComponentManager/Setting.php:59
 msgid "Setting"
 msgstr "تنظیمات"
 
-#: src/Pmpr/Module/ComponentManager/Model/Component.php:251
+#: src/Pmpr/Module/ComponentManager/Model/Component.php:311
 msgid "New"
 msgstr "جدید"
 
-#: src/Pmpr/Module/ComponentManager/Model/Component.php:257
+#: src/Pmpr/Module/ComponentManager/Model/Component.php:317
 msgid "Requirement"
 msgstr "نیازمندی"
 
-#: src/Pmpr/Module/ComponentManager/Model/Component.php:262
+#: src/Pmpr/Module/ComponentManager/Model/Component.php:322
 #: src/Pmpr/Module/ComponentManager/REST/Controller.php:346
-#: src/Pmpr/Module/ComponentManager/Setting.php:129
+#: src/Pmpr/Module/ComponentManager/Setting.php:128
 msgid "Name"
 msgstr "نام"
 
-#: src/Pmpr/Module/ComponentManager/Model/Component.php:266
-#: src/Pmpr/Module/ComponentManager/Setting.php:85
-#: src/Pmpr/Module/ComponentManager/Setting.php:133
+#: src/Pmpr/Module/ComponentManager/Model/Component.php:326
+#: src/Pmpr/Module/ComponentManager/Setting.php:84
+#: src/Pmpr/Module/ComponentManager/Setting.php:132
 msgid "Icon"
 msgstr "آیکون"
 
-#: src/Pmpr/Module/ComponentManager/Model/Component.php:270
-#: src/Pmpr/Module/ComponentManager/Setting.php:141
+#: src/Pmpr/Module/ComponentManager/Model/Component.php:330
+#: src/Pmpr/Module/ComponentManager/Setting.php:140
 msgid "Guides"
 msgstr "راهنماها"
 
-#: src/Pmpr/Module/ComponentManager/Model/Component.php:275
+#: src/Pmpr/Module/ComponentManager/Model/Component.php:335
 msgid "Value"
 msgstr "مقدار"
 
-#: src/Pmpr/Module/ComponentManager/Model/Component.php:425
+#: src/Pmpr/Module/ComponentManager/Model/Component.php:445
 msgid ""
 "Sorry but it's sames your domain not registered. please register domain and "
 "then try again"
@@ -664,171 +677,174 @@ msgstr ""
 "به نظر می‌رسد دامنه شما ثبت نشده است، لطفا دامنه را ثبت کرده و دوباره امتحان "
 "کنید"
 
-#: src/Pmpr/Module/ComponentManager/Model/Component.php:506
+#: src/Pmpr/Module/ComponentManager/Model/Component.php:460
+#: src/Pmpr/Module/ComponentManager/Model/Component.php:463
+msgid "Update Data"
+msgstr "به روز رسانی"
+
+#: src/Pmpr/Module/ComponentManager/Model/Component.php:537
 #, php-format
 msgid "Check %s"
 msgstr "بررسی %s"
 
-#: src/Pmpr/Module/ComponentManager/Model/Installation.php:36
-#: src/Pmpr/Module/ComponentManager/Model/Request.php:96
+#: src/Pmpr/Module/ComponentManager/Model/Installation.php:35
+#: src/Pmpr/Module/ComponentManager/Model/Request.php:110
 msgid "Installation"
 msgstr "نصب"
 
-#: src/Pmpr/Module/ComponentManager/Model/Installation.php:37
-msgid "Installations"
-msgstr "نصب‌ها"
-
-#: src/Pmpr/Module/ComponentManager/Model/Installation.php:50
+#: src/Pmpr/Module/ComponentManager/Model/Installation.php:58
 msgid "Serial"
 msgstr "سریال"
 
-#: src/Pmpr/Module/ComponentManager/Model/Installation.php:54
+#: src/Pmpr/Module/ComponentManager/Model/Installation.php:62
 msgid "Expiration"
 msgstr "انقضا"
 
-#: src/Pmpr/Module/ComponentManager/Model/Installation.php:68
+#: src/Pmpr/Module/ComponentManager/Model/Installation.php:96
 msgid "Phone"
 msgstr "شماره تماس"
 
-#: src/Pmpr/Module/ComponentManager/Model/Installation.php:72
+#: src/Pmpr/Module/ComponentManager/Model/Installation.php:102
 msgid "Organization Role"
 msgstr "نقش سازمانی"
 
-#: src/Pmpr/Module/ComponentManager/Model/Installation.php:77
+#: src/Pmpr/Module/ComponentManager/Model/Installation.php:107
 msgid "Latest Check Serial"
 msgstr "آخرین بررسی سریال"
 
-#: src/Pmpr/Module/ComponentManager/Model/Installation.php:81
-#: src/Pmpr/Module/ComponentManager/Model/Request.php:32
+#: src/Pmpr/Module/ComponentManager/Model/Installation.php:112
+#: src/Pmpr/Module/ComponentManager/Model/Request.php:30
 msgid "Install Request"
 msgstr "درخواست نصب"
 
-#: src/Pmpr/Module/ComponentManager/Model/Installation.php:143
+#: src/Pmpr/Module/ComponentManager/Model/Installation.php:126
+msgid "Not submitted yet."
+msgstr "هنوز ارسال نشده است."
+
+#: src/Pmpr/Module/ComponentManager/Model/Installation.php:196
 msgid "Domain Type"
 msgstr "نوع دامنه"
 
-#: src/Pmpr/Module/ComponentManager/Model/Installation.php:145
+#: src/Pmpr/Module/ComponentManager/Model/Installation.php:198
 msgid "New Domain"
 msgstr "دامنه جدید"
 
-#: src/Pmpr/Module/ComponentManager/Model/Installation.php:146
+#: src/Pmpr/Module/ComponentManager/Model/Installation.php:199
 msgid "Old Domain"
 msgstr "دامنه قدیمی"
 
-#: src/Pmpr/Module/ComponentManager/Model/Installation.php:152
+#: src/Pmpr/Module/ComponentManager/Model/Installation.php:205
 msgid "Domain Name"
 msgstr "نام دامنه"
 
-#: src/Pmpr/Module/ComponentManager/Model/Installation.php:156
+#: src/Pmpr/Module/ComponentManager/Model/Installation.php:209
 msgid "Domain URL"
 msgstr "پیوند دامنه"
 
-#: src/Pmpr/Module/ComponentManager/Model/Installation.php:179
+#: src/Pmpr/Module/ComponentManager/Model/Installation.php:231
 msgid "Count"
 msgstr "تعداد"
 
-#: src/Pmpr/Module/ComponentManager/Model/Installation.php:201
+#: src/Pmpr/Module/ComponentManager/Model/Installation.php:252
 msgid "Batch Creation"
 msgstr "ایجاد دسته‌ای"
 
-#: src/Pmpr/Module/ComponentManager/Model/Installation.php:204
+#: src/Pmpr/Module/ComponentManager/Model/Installation.php:255
 msgid "Batch Creation of Installation"
 msgstr "ایجاد دسته‌ای نصب"
 
-#: src/Pmpr/Module/ComponentManager/Model/Installation.php:210
+#: src/Pmpr/Module/ComponentManager/Model/Installation.php:261
 msgid "Create"
 msgstr "ایجاد"
 
-#: src/Pmpr/Module/ComponentManager/Model/Installation.php:220
+#: src/Pmpr/Module/ComponentManager/Model/Installation.php:268
 msgid "Serials PDF"
 msgstr "پی دی اف سریال‌ها"
 
-#: src/Pmpr/Module/ComponentManager/Model/Installation.php:223
+#: src/Pmpr/Module/ComponentManager/Model/Installation.php:271
 msgid "Download Installations Serial PDF"
 msgstr "دانلود پی دی اف سریال نصب‌ها"
 
-#: src/Pmpr/Module/ComponentManager/Model/Installation.php:227
+#: src/Pmpr/Module/ComponentManager/Model/Installation.php:275
 msgid "Template"
 msgstr "قالب"
 
-#: src/Pmpr/Module/ComponentManager/Model/Installation.php:232
+#: src/Pmpr/Module/ComponentManager/Model/Installation.php:280
 msgid "Filter"
 msgstr "فیلتر"
 
-#: src/Pmpr/Module/ComponentManager/Model/Installation.php:235
+#: src/Pmpr/Module/ComponentManager/Model/Installation.php:283
 msgid "By Component"
 msgstr "با کامپوننت"
 
-#: src/Pmpr/Module/ComponentManager/Model/Installation.php:236
-#: src/Pmpr/Module/ComponentManager/Model/Installation.php:241
-#: src/Pmpr/Module/ComponentManager/Model/Installation.php:247
+#: src/Pmpr/Module/ComponentManager/Model/Installation.php:284
+#: src/Pmpr/Module/ComponentManager/Model/Installation.php:289
+#: src/Pmpr/Module/ComponentManager/Model/Installation.php:295
 msgid "not assigned"
 msgstr "اختصاص داده نشده"
 
-#: src/Pmpr/Module/ComponentManager/Model/Installation.php:240
+#: src/Pmpr/Module/ComponentManager/Model/Installation.php:288
 msgid "By Campaign"
 msgstr "با کمپین"
 
-#: src/Pmpr/Module/ComponentManager/Model/Installation.php:246
+#: src/Pmpr/Module/ComponentManager/Model/Installation.php:294
 msgid "All"
 msgstr "همه"
 
-#: src/Pmpr/Module/ComponentManager/Model/Installation.php:255
+#: src/Pmpr/Module/ComponentManager/Model/Installation.php:303
 #, php-format
 msgid "Separate with %s like: %s"
 msgstr "جدا کردن با %s مانند: %s"
 
-#: src/Pmpr/Module/ComponentManager/Model/Installation.php:270
+#: src/Pmpr/Module/ComponentManager/Model/Installation.php:318
 msgid "Download"
 msgstr "دانلود"
 
-#: src/Pmpr/Module/ComponentManager/Model/Installation.php:301
+#: src/Pmpr/Module/ComponentManager/Model/Installation.php:347
 msgid ""
 "Entered serial already used for anther installation, please enter another one."
 msgstr ""
 "سریال وارد شده قبلاً برای نصب دیگری استفاده شده است، لطفاً سریال دیگری وارد کنید."
 
-#: src/Pmpr/Module/ComponentManager/Model/Installation.php:305
+#: src/Pmpr/Module/ComponentManager/Model/Installation.php:351
 msgid "Entered serial not valid"
 msgstr "سریال وارد شده معتبر نیست"
 
-#: src/Pmpr/Module/ComponentManager/Model/Installation.php:329
+#: src/Pmpr/Module/ComponentManager/Model/Installation.php:383
 msgid "Domain URL and Domain Name can not be empty."
 msgstr ""
 
-#: src/Pmpr/Module/ComponentManager/Model/Purchase.php:25
-msgid "Purchase"
-msgstr "خرید"
-
-#: src/Pmpr/Module/ComponentManager/Model/Purchase.php:26
+#: src/Pmpr/Module/ComponentManager/Model/Purchase.php:23
 msgid "Purchases"
 msgstr "خرید‌ها"
 
-#: src/Pmpr/Module/ComponentManager/Model/Purchase.php:43
+#: src/Pmpr/Module/ComponentManager/Model/Purchase.php:24
+msgid "Purchase"
+msgstr "خرید"
+
+#: src/Pmpr/Module/ComponentManager/Model/Purchase.php:103
 msgid "Order Item"
 msgstr "آیتم سفارش"
 
-#: src/Pmpr/Module/ComponentManager/Model/Purchase.php:47
+#: src/Pmpr/Module/ComponentManager/Model/Purchase.php:116
 #: src/Pmpr/Module/ComponentManager/Model/Report.php:52
-#: src/Pmpr/Module/ComponentManager/Panel/Panel.php:51
+#: src/Pmpr/Module/ComponentManager/Panel/Panel.php:52
 msgid "License Key"
 msgstr "کلید لایسنس"
 
-#: src/Pmpr/Module/ComponentManager/Model/Purchase.php:135
+#: src/Pmpr/Module/ComponentManager/Model/Purchase.php:144
 msgid "Domain or Component not specified."
 msgstr "دامنه یا کامپوننت مشخص نشده است."
 
-#: src/Pmpr/Module/ComponentManager/Model/Purchase.php:141
-#, fuzzy
-#| msgid "Purchase already exists."
+#: src/Pmpr/Module/ComponentManager/Model/Purchase.php:153
 msgid "Purchase with selected data already exists."
-msgstr "خرید پیش از این درج شده است."
+msgstr "خرید با داده‌های انتخابی از قبل وجود دارد."
 
-#: src/Pmpr/Module/ComponentManager/Model/Report.php:29
+#: src/Pmpr/Module/ComponentManager/Model/Report.php:25
 msgid "Report"
 msgstr "گزارش"
 
-#: src/Pmpr/Module/ComponentManager/Model/Report.php:35
+#: src/Pmpr/Module/ComponentManager/Model/Report.php:34
 msgid "Host"
 msgstr "هاست"
 
@@ -836,9 +852,9 @@ msgstr "هاست"
 msgid "Action"
 msgstr "عملیات"
 
-#: src/Pmpr/Module/ComponentManager/Model/Report.php:38
-#: src/Pmpr/Module/ComponentManager/Setting.php:90
-#: src/Pmpr/Module/ComponentManager/Setting.php:121
+#: src/Pmpr/Module/ComponentManager/Model/Report.php:37
+#: src/Pmpr/Module/ComponentManager/Setting.php:89
+#: src/Pmpr/Module/ComponentManager/Setting.php:120
 msgid "Description"
 msgstr "شرح"
 
@@ -846,135 +862,135 @@ msgstr "شرح"
 msgid "Exception"
 msgstr "خطا"
 
-#: src/Pmpr/Module/ComponentManager/Model/Request.php:33
+#: src/Pmpr/Module/ComponentManager/Model/Request.php:29
 msgid "Install Requests"
 msgstr "درخواست‌های نصب"
 
-#: src/Pmpr/Module/ComponentManager/Model/Request.php:43
+#: src/Pmpr/Module/ComponentManager/Model/Request.php:51
 msgid "Technical Assistant Name"
 msgstr "نام مسئول فنی"
 
-#: src/Pmpr/Module/ComponentManager/Model/Request.php:47
+#: src/Pmpr/Module/ComponentManager/Model/Request.php:55
 msgid "Technical Assistant Phone"
 msgstr "شماره تماس مسئول فنی"
 
-#: src/Pmpr/Module/ComponentManager/Model/Request.php:52
+#: src/Pmpr/Module/ComponentManager/Model/Request.php:60
 msgid "Telegram or Whatsapp"
 msgstr "تلگرام و واتساپ"
 
-#: src/Pmpr/Module/ComponentManager/Model/Request.php:53
+#: src/Pmpr/Module/ComponentManager/Model/Request.php:61
 msgid "Phone Call"
 msgstr "تماس تلفنی"
 
-#: src/Pmpr/Module/ComponentManager/Model/Request.php:54
-#: src/Pmpr/Module/ComponentManager/Model/Request.php:61
-#: src/Pmpr/Module/ComponentManager/Model/Request.php:76
+#: src/Pmpr/Module/ComponentManager/Model/Request.php:62
+#: src/Pmpr/Module/ComponentManager/Model/Request.php:70
+#: src/Pmpr/Module/ComponentManager/Model/Request.php:86
 msgid "Both"
 msgstr "هر دو"
 
-#: src/Pmpr/Module/ComponentManager/Model/Request.php:59
+#: src/Pmpr/Module/ComponentManager/Model/Request.php:68
 msgid "Working Days"
 msgstr "روز‌های کاری"
 
-#: src/Pmpr/Module/ComponentManager/Model/Request.php:60
+#: src/Pmpr/Module/ComponentManager/Model/Request.php:69
 msgid "Holidays"
 msgstr "روز‌های تعطیل"
 
-#: src/Pmpr/Module/ComponentManager/Model/Request.php:67
-#: src/Pmpr/Module/ComponentManager/Model/Request.php:72
+#: src/Pmpr/Module/ComponentManager/Model/Request.php:77
+#: src/Pmpr/Module/ComponentManager/Model/Request.php:82
 #, php-format
 msgid "%s until %s"
 msgstr "%s تا %s"
 
-#: src/Pmpr/Module/ComponentManager/Model/Request.php:84
+#: src/Pmpr/Module/ComponentManager/Model/Request.php:95
 msgid "Temporary Admin Username"
 msgstr "نام کاربری ادمین موقت"
 
-#: src/Pmpr/Module/ComponentManager/Model/Request.php:88
+#: src/Pmpr/Module/ComponentManager/Model/Request.php:100
 msgid "Temporary Admin Password"
 msgstr "رمز ادمین موقت"
 
-#: src/Pmpr/Module/ComponentManager/Panel/Panel.php:35
+#: src/Pmpr/Module/ComponentManager/Panel/Panel.php:36
 msgid "My Components"
 msgstr "کامپوننت‌های من"
 
-#: src/Pmpr/Module/ComponentManager/Panel/Panel.php:36
+#: src/Pmpr/Module/ComponentManager/Panel/Panel.php:37
 msgid "Your domain's components"
 msgstr "کامپوننت‌های خریداری شده برای دامنه‌های شما"
 
-#: src/Pmpr/Module/ComponentManager/Panel/Panel.php:52
+#: src/Pmpr/Module/ComponentManager/Panel/Panel.php:53
 msgid "Purchase Date"
 msgstr "تاریخ خرید"
 
-#: src/Pmpr/Module/ComponentManager/PushUpdate/PushUpdate.php:76
+#: src/Pmpr/Module/ComponentManager/PushUpdate/PushUpdate.php:79
 msgid "Push Update"
 msgstr ""
 
-#: src/Pmpr/Module/ComponentManager/PushUpdate/PushUpdate.php:83
+#: src/Pmpr/Module/ComponentManager/PushUpdate/PushUpdate.php:86
 msgid "Domains"
 msgstr "دامنه‌ها"
 
-#: src/Pmpr/Module/ComponentManager/PushUpdate/PushUpdate.php:86
+#: src/Pmpr/Module/ComponentManager/PushUpdate/PushUpdate.php:90
 msgid "Leave empty if you want push update to all domains."
 msgstr ""
 
-#: src/Pmpr/Module/ComponentManager/PushUpdate/PushUpdate.php:88
+#: src/Pmpr/Module/ComponentManager/PushUpdate/PushUpdate.php:92
 #, php-format
 msgid ""
 "This functionality just work for domains with %s status and %s permission."
 msgstr ""
 
-#: src/Pmpr/Module/ComponentManager/PushUpdate/PushUpdate.php:89
+#: src/Pmpr/Module/ComponentManager/PushUpdate/PushUpdate.php:93
 msgid "Active"
 msgstr "فعال"
 
-#: src/Pmpr/Module/ComponentManager/PushUpdate/PushUpdate.php:89
+#: src/Pmpr/Module/ComponentManager/PushUpdate/PushUpdate.php:93
 msgid "Allowed"
 msgstr "مجاز"
 
-#: src/Pmpr/Module/ComponentManager/PushUpdate/PushUpdate.php:99
+#: src/Pmpr/Module/ComponentManager/PushUpdate/PushUpdate.php:103
 #, php-format
 msgid "Component version is %s."
 msgstr "نسخه کامپوننت %s است."
 
-#: src/Pmpr/Module/ComponentManager/PushUpdate/PushUpdate.php:107
+#: src/Pmpr/Module/ComponentManager/PushUpdate/PushUpdate.php:111
 msgid "Submit"
 msgstr "تایید"
 
-#: src/Pmpr/Module/ComponentManager/REST/Controller.php:55
-#: src/Pmpr/Module/ComponentManager/REST/Controller.php:91
+#: src/Pmpr/Module/ComponentManager/REST/Controller.php:54
+#: src/Pmpr/Module/ComponentManager/REST/Controller.php:90
 msgid "Name of component"
 msgstr "نام کامپوننت"
 
-#: src/Pmpr/Module/ComponentManager/REST/Controller.php:65
+#: src/Pmpr/Module/ComponentManager/REST/Controller.php:64
 msgid "Type of component"
 msgstr "نوع کامپوننت"
 
-#: src/Pmpr/Module/ComponentManager/REST/Controller.php:87
+#: src/Pmpr/Module/ComponentManager/REST/Controller.php:86
 msgid "License of component"
 msgstr "لایسنس کامپوننت"
 
-#: src/Pmpr/Module/ComponentManager/REST/Controller.php:95
+#: src/Pmpr/Module/ComponentManager/REST/Controller.php:94
 msgid "Request send automatically by cron or not"
 msgstr ""
 
-#: src/Pmpr/Module/ComponentManager/REST/Controller.php:153
+#: src/Pmpr/Module/ComponentManager/REST/Controller.php:150
 msgid "License key provided successfully."
 msgstr "کلید مجوز با موفقیت ارائه شد."
 
-#: src/Pmpr/Module/ComponentManager/REST/Controller.php:158
+#: src/Pmpr/Module/ComponentManager/REST/Controller.php:155
 msgid "Requested component not found."
 msgstr "کامپوننتی درخواستی یافت نشد."
 
-#: src/Pmpr/Module/ComponentManager/REST/Controller.php:204
+#: src/Pmpr/Module/ComponentManager/REST/Controller.php:203
 msgid "License Key is valid."
 msgstr "کلید لایسنس معتبر است."
 
-#: src/Pmpr/Module/ComponentManager/REST/Controller.php:207
+#: src/Pmpr/Module/ComponentManager/REST/Controller.php:206
 msgid "Sorry, You not buy this component, are you trying hack?"
-msgstr ""
+msgstr "متاسفانه شما این کامپوننت را نخریده‌اید."
 
-#: src/Pmpr/Module/ComponentManager/REST/Controller.php:213
+#: src/Pmpr/Module/ComponentManager/REST/Controller.php:212
 msgid "Sorry, You not buy this component."
 msgstr "شما این کامپوننت را نخریده‌اید."
 
@@ -1001,7 +1017,7 @@ msgstr "متاسفانه درخواست شما معتبر نیست، لطفا ب
 msgid "Service is unavailable right now."
 msgstr "در حال حاضر قادر به سرویس دهی نیستم."
 
-#: src/Pmpr/Module/ComponentManager/REST/Controller.php:519
+#: src/Pmpr/Module/ComponentManager/REST/Controller.php:513
 msgid "No domain found for you."
 msgstr "دامنه‌ای برای شما یافت نشد."
 
@@ -1010,188 +1026,188 @@ msgid ""
 "Enable reCAPTCHA for check setup serial (first step of request multistep)."
 msgstr ""
 
-#: src/Pmpr/Module/ComponentManager/Setting.php:59
+#: src/Pmpr/Module/ComponentManager/Setting.php:58
 msgid "Component Manager Setting"
 msgstr "تنظیمات مدیریت کامپوننت‌"
 
-#: src/Pmpr/Module/ComponentManager/Setting.php:70
+#: src/Pmpr/Module/ComponentManager/Setting.php:69
 msgid "Requirements, Updates, ..."
 msgstr "نیازمندی‌ها، به روز رسانی‌ها، ..."
 
-#: src/Pmpr/Module/ComponentManager/Setting.php:74
-#: src/Pmpr/Module/ComponentManager/Setting.php:156
-#: src/Pmpr/Module/ComponentManager/Setting.php:216
+#: src/Pmpr/Module/ComponentManager/Setting.php:73
+#: src/Pmpr/Module/ComponentManager/Setting.php:155
+#: src/Pmpr/Module/ComponentManager/Setting.php:215
 msgid "General"
 msgstr "عمومی"
 
-#: src/Pmpr/Module/ComponentManager/Setting.php:77
+#: src/Pmpr/Module/ComponentManager/Setting.php:76
 msgid "Installation Guide Steps"
 msgstr "مراحل راهنمای نصب"
 
-#: src/Pmpr/Module/ComponentManager/Setting.php:96
+#: src/Pmpr/Module/ComponentManager/Setting.php:95
 msgid "Contact US Page"
 msgstr "صفحه تماس با ما"
 
-#: src/Pmpr/Module/ComponentManager/Setting.php:110
+#: src/Pmpr/Module/ComponentManager/Setting.php:109
 msgid "Requirement Guides"
 msgstr "راهنماهای نیازمندی‌"
 
-#: src/Pmpr/Module/ComponentManager/Setting.php:113
+#: src/Pmpr/Module/ComponentManager/Setting.php:112
 msgid "Admin Area Title"
 msgstr "عنوان در بخش ادمین"
 
-#: src/Pmpr/Module/ComponentManager/Setting.php:117
+#: src/Pmpr/Module/ComponentManager/Setting.php:116
 msgid "Front Area Title"
 msgstr "عنوان در بخش نمایشی سایت"
 
-#: src/Pmpr/Module/ComponentManager/Setting.php:126
+#: src/Pmpr/Module/ComponentManager/Setting.php:125
 msgid "Requirement Items"
 msgstr "آیتم‌های نیازمندی"
 
-#: src/Pmpr/Module/ComponentManager/Setting.php:137
+#: src/Pmpr/Module/ComponentManager/Setting.php:136
 msgid "Default Value"
 msgstr "مقدار پشفرض"
 
-#: src/Pmpr/Module/ComponentManager/Setting.php:153
+#: src/Pmpr/Module/ComponentManager/Setting.php:152
 msgid "Plugin Configuration"
 msgstr "پیکربندی افزونه"
 
-#: src/Pmpr/Module/ComponentManager/Setting.php:167
+#: src/Pmpr/Module/ComponentManager/Setting.php:166
 msgid "Text"
 msgstr "متن"
 
-#: src/Pmpr/Module/ComponentManager/Setting.php:173
+#: src/Pmpr/Module/ComponentManager/Setting.php:172
 msgid "Tab's Main Content"
 msgstr "محتوای تب اصلی"
 
-#: src/Pmpr/Module/ComponentManager/Setting.php:177
+#: src/Pmpr/Module/ComponentManager/Setting.php:176
 msgid "Tab Title"
 msgstr "عنوان برگه (تب)"
 
-#: src/Pmpr/Module/ComponentManager/Setting.php:181
+#: src/Pmpr/Module/ComponentManager/Setting.php:180
 msgid "Main Description"
 msgstr "شرح اصلی"
 
-#: src/Pmpr/Module/ComponentManager/Setting.php:186
+#: src/Pmpr/Module/ComponentManager/Setting.php:185
 msgid "Compares"
 msgstr "مقایسه‌ها"
 
-#: src/Pmpr/Module/ComponentManager/Setting.php:199
+#: src/Pmpr/Module/ComponentManager/Setting.php:198
 msgid "Wordpress"
 msgstr "وردپرس"
 
-#: src/Pmpr/Module/ComponentManager/Setting.php:203
+#: src/Pmpr/Module/ComponentManager/Setting.php:202
 msgid "PMPR"
 msgstr "مهندس محمدپور"
 
-#: src/Pmpr/Module/ComponentManager/Setting.php:211
+#: src/Pmpr/Module/ComponentManager/Setting.php:210
 msgid "Multistep"
 msgstr "مالتی‌ استپ"
 
-#: src/Pmpr/Module/ComponentManager/Setting.php:212
+#: src/Pmpr/Module/ComponentManager/Setting.php:211
 msgid "Multistep Configuration"
 msgstr "پیکربندی مالتی استپ"
 
-#: src/Pmpr/Module/ComponentManager/Setting.php:219
+#: src/Pmpr/Module/ComponentManager/Setting.php:218
 msgid "Go to After Add to Cart"
 msgstr "انتقال بعد از افزودن به سبد خرید"
 
-#: src/Pmpr/Module/ComponentManager/Setting.php:220
+#: src/Pmpr/Module/ComponentManager/Setting.php:219
 msgid "Product Single"
 msgstr "صفحه محصول"
 
-#: src/Pmpr/Module/ComponentManager/Setting.php:221
+#: src/Pmpr/Module/ComponentManager/Setting.php:220
 msgid "Cart"
 msgstr "سبد خرید"
 
-#: src/Pmpr/Module/ComponentManager/Setting.php:222
+#: src/Pmpr/Module/ComponentManager/Setting.php:221
 msgid "Checkout"
 msgstr "تسویه حساب"
 
-#: src/Pmpr/Module/ComponentManager/Setting.php:229
+#: src/Pmpr/Module/ComponentManager/Setting.php:228
 msgid "Steps data"
 msgstr "داد‌های مربوط به مراحل"
 
-#: src/Pmpr/Module/ComponentManager/Setting.php:233
+#: src/Pmpr/Module/ComponentManager/Setting.php:232
 #, php-format
 msgid "%s Step"
 msgstr "مرحله %s"
 
-#: src/Pmpr/Module/ComponentManager/Setting.php:233
+#: src/Pmpr/Module/ComponentManager/Setting.php:232
 msgid "Order Type"
 msgstr "نوع سفارش"
 
-#: src/Pmpr/Module/ComponentManager/Setting.php:236
+#: src/Pmpr/Module/ComponentManager/Setting.php:235
 msgid "Plugin Guide Title"
 msgstr "عنوان راهنمای افزونه"
 
-#: src/Pmpr/Module/ComponentManager/Setting.php:239
+#: src/Pmpr/Module/ComponentManager/Setting.php:238
 msgid "Plugin Guide File"
 msgstr "فایل افزونه"
 
-#: src/Pmpr/Module/ComponentManager/Setting.php:242
+#: src/Pmpr/Module/ComponentManager/Setting.php:241
 msgid "Plugin Guide Button Text"
 msgstr "متن دکمه راهنمای افزونه"
 
-#: src/Pmpr/Module/ComponentManager/Setting.php:245
+#: src/Pmpr/Module/ComponentManager/Setting.php:244
 msgid "Plugin Guide Description"
 msgstr "شرح راهنمای افزونه"
 
-#: src/Pmpr/Module/ComponentManager/Setting.php:252
+#: src/Pmpr/Module/ComponentManager/Setting.php:251
 msgid "Backlink"
 msgstr "بک لینک‌"
 
-#: src/Pmpr/Module/ComponentManager/Setting.php:255
+#: src/Pmpr/Module/ComponentManager/Setting.php:254
 msgid "Backlink Title"
 msgstr "عنوان بک لینک"
 
-#: src/Pmpr/Module/ComponentManager/Setting.php:258
+#: src/Pmpr/Module/ComponentManager/Setting.php:257
 msgid "Backlink Description"
 msgstr "شرح بک لینک"
 
-#: src/Pmpr/Module/ComponentManager/Setting.php:261
+#: src/Pmpr/Module/ComponentManager/Setting.php:260
 msgid "Backlink Image"
 msgstr "تصویر بک لینک"
 
-#: src/Pmpr/Module/ComponentManager/Setting.php:264
+#: src/Pmpr/Module/ComponentManager/Setting.php:263
 msgid "Backlink Alert"
 msgstr "هشدار بک لینک"
 
-#: src/Pmpr/Module/ComponentManager/Setting.php:265
+#: src/Pmpr/Module/ComponentManager/Setting.php:264
 msgid "if remove it from your page, your account is banned."
 msgstr "با دریافت این تخفیف، اگر این لینک را حذف کنید، حساب شما معلق خواهد شد."
 
-#: src/Pmpr/Module/ComponentManager/Setting.php:298
+#: src/Pmpr/Module/ComponentManager/Setting.php:297
 msgid "Wordpress Theme"
 msgstr "پوسته وردپرس"
 
-#: src/Pmpr/Module/ComponentManager/Setting.php:299
+#: src/Pmpr/Module/ComponentManager/Setting.php:298
 msgid "Wordpress Cover"
 msgstr "کاور وردپرس"
 
-#: src/Pmpr/Module/ComponentManager/Setting.php:302
+#: src/Pmpr/Module/ComponentManager/Setting.php:301
 msgid "Wordpress Plugin"
 msgstr "افزونه وردپرس"
 
-#: src/Pmpr/Module/ComponentManager/Setting.php:303
+#: src/Pmpr/Module/ComponentManager/Setting.php:302
 msgid "Wordpress Module"
 msgstr "ماژول وردپرس"
 
-#: src/Pmpr/Module/ComponentManager/Setting.php:342
+#: src/Pmpr/Module/ComponentManager/Setting.php:341
 #, php-format
 msgid "If needed, you can contact us through the %s."
 msgstr "در صورت نیاز می‌توانید از طریق %s، با ما در ارتباط باشید."
 
-#: src/Pmpr/Module/ComponentManager/Setting.php:345
+#: src/Pmpr/Module/ComponentManager/Setting.php:344
 #, php-format
 msgid "Page %s"
 msgstr "صفحه %s"
 
-#: src/Pmpr/Module/ComponentManager/Setting.php:388
+#: src/Pmpr/Module/ComponentManager/Setting.php:387
 msgid "Close"
 msgstr "بستن"
 
-#: src/Pmpr/Module/ComponentManager/Setting.php:414
+#: src/Pmpr/Module/ComponentManager/Setting.php:413
 #, php-format
 msgid "%s Installation Guide"
 msgstr "راهنمای نصب %s"
