@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             66f43b00aa9c6             |
+    |             670d89e69c831             |
     |_______________________________________|
 */
  use Pmpr\Module\ComponentManager\ComponentManager; ComponentManager::symcgieuakksimmu();

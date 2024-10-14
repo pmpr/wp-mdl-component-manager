@@ -1,33 +1,10 @@
 {
-  "name": "pmpr-mdl/wp-mdl-component-manager",
-  "type": "project",
-  "license": "proprietary",
-  "description": "Component Manger Module for Wordpress",
-  "keywords": [
-    "optimization",
-    "wordpress",
-    "package"
-  ],
-  "require": {
-    "php": ">=8.2",
-    "pmpr-cmn/wp-cmn-foundation": "~1.4",
-    "pmpr-utl/wp-utl-document": "~1"
-  },
   "prod-require": {
     "php": "8.2",
     "wordpress": "6.0",
     "wp-utl-document": "latest",
     "wp-cmn-foundation": "latest"
   },
-  "autoload": {
-    "psr-4": {
-      "Pmpr\\Module\\ComponentManager\\": "src/Pmpr/Module/ComponentManager"
-    },
-    "files": [
-      "index.php"
-    ]
-  },
-  "minimum-stability": "dev",
-  "tag": "1.3.80",
-  "timestamp": "1727281922"
+  "tag": "1.4.0",
+  "timestamp": "1728940520"
 }
