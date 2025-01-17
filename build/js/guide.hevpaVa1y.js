@@ -1,2 +1,2 @@
-/*! For license information please see guide.mTRW-pFDe.js.LICENSE.txt */
+/*! For license information please see guide.hevpaVa1y.js.LICENSE.txt */
 !function(){const t=PRHelper.getHook(),e=PRHelper.getHTML();t.bubbling("click",(i=>{const o=window.jQuery,l=e.getTarget(i,"a"),n=e.getData(l,"target"),a=e.getElement(".pr-multistep-wrap",n);t.doAction("destroy_multistep",a),t.doAction("init_multistep",a),o(n).modal("show")}),".installation-guide-toggle"),t.bubbling("click",(t=>{const i=window.jQuery,o=e.getTarget(t,"button"),l=e.getParent(o,".modal");e.getElement(".pr-multistep-wrap",l),i(l).modal("hide")}),".installation-guide-multistep .submit-action")}();
